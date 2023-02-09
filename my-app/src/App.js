@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Courses , Homepage, SignupLogin, SingleCourse, Header} from '../src/components';
+import {Courses , Homepage,CreateQuiz, SignupLogin, SingleCourse, Header} from '../src/components';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Homepage");
@@ -10,6 +10,7 @@ function App() {
   {currentPage === "SignupLogin" && <SignupLogin />}
   {currentPage === "Courses" && <Courses />}
   {currentPage === "SingleCourse" && <SingleCourse/>}
+  {currentPage === "CreateQuiz" && <CreateQuiz/>}
   </div>
   <br></br>
   {/* <Footer setCurrentPage={setCurrentPage} /> */}
