@@ -8,7 +8,7 @@ function App() {
    <>
     <Header currentPage={currentPage} setCurrentPage={setCurrentPage} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
     <div >{currentPage === "Homepage" && <Homepage setCurrentPage={setCurrentPage} isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>}
-  {currentPage === "SignupLogin" && <SignupLogin />}
+  {currentPage === "SignupLogin" && <SignupLogin isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>}
   {currentPage === "Courses" && <Courses />}
   {currentPage === "SingleCourse" && <SingleCourse/>}
   {currentPage === "CreateQuiz" && <CreateQuiz/>}
