@@ -33,7 +33,9 @@ const Home = () => {
                 <div class="card-body">
                     <h5 class="card-title">Make a quiz</h5>
                     <p class="card-text">Talk about creating a teacher acount and making your own quizes</p>
-                    
+                    <Link className="btn btn-lg btn-info m-2" to="/CreateQuiz">
+                CreateQuiz
+              </Link>
                 </div>
                 <div class="card-footer text-muted"></div>
             </div>
