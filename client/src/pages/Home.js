@@ -3,7 +3,7 @@ import { useQuery } from '@apollo/client';
 import { Link } from 'react-router-dom';
 import ThoughtList from '../components/ThoughtList';
 import ThoughtForm from '../components/ThoughtForm';
-
+import Auth from '../utils/auth';
 import { QUERY_THOUGHTS } from '../utils/queries';
 
 const Home = () => {
@@ -11,8 +11,9 @@ const Home = () => {
   const thoughts = data?.thoughts || [];
 
   return (
-    
+    <div>
        <div className="homepage">
+           
             <div class="card text-center  border border-primary mt-4">
                 <div class="card-header">
                     Featured
@@ -39,6 +40,11 @@ const Home = () => {
                 </div>
                 <div class="card-footer text-muted"></div>
             </div>
+        </div>
+        
+        
+        
+        
         </div>
   );
 };
