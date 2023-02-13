@@ -1,15 +1,15 @@
 const { Schema, model } = require('mongoose');
 const dateFormat = require('../utils/dateFormat');
 
-const thoughtSchema = new Schema({
-  thoughtText: {
+const quizSchema = new Schema({
+  quizTitle: {
     type: String,
-    required: 'You need to leave a thought!',
+    required: 'Quiz title is required!',
     minlength: 1,
     maxlength: 280,
     trim: true,
   },
-  thoughtAuthor: {
+  quizAuthor: {
     type: String,
     required: true,
     trim: true,
@@ -19,18 +19,28 @@ const thoughtSchema = new Schema({
     default: Date.now,
     get: (timestamp) => dateFormat(timestamp),
   },
-  comments: [
+  questions: [
     {
-      commentText: {
+      question: {
         type: String,
         required: true,
         minlength: 1,
         maxlength: 280,
       },
-      commentAuthor: {
-        type: String,
-        required: true,
-      },
+      answers: [
+        {
+          answer: {
+            type: String,
+            required: true,
+            minlength: 1,
+            maxlength: 280,
+          },
+          correct: {
+            type: Boolean,
+            required: true,
+          },
+        },
+      ],
       createdAt: {
         type: Date,
         default: Date.now,
@@ -40,6 +50,6 @@ const thoughtSchema = new Schema({
   ],
 });
 
-const Thought = model('Thought', thoughtSchema);
+const Quiz = model('Quiz', quizSchema);
 
-module.exports = Thought;
+module.exports = Quiz;

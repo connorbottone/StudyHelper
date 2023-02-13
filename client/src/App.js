@@ -15,6 +15,11 @@ import SingleThought from './pages/SingleThought';
 import Profile from './pages/Profile';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Courses from './pages/Courses';
+import CreateQuiz from './pages/CreateQuiz';
+import Grade1 from './pages/Grade1';
+import Grade2 from './pages/Grade2';
+import Grade3 from './pages/Grade3';
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -71,6 +76,26 @@ function App() {
               <Route 
                 path="/thoughts/:thoughtId"
                 element={<SingleThought />}
+              />
+              <Route 
+                path="/Courses"
+                element={<Courses />}
+              />
+               <Route 
+                path="/CreateQuiz"
+                element={<CreateQuiz />}
+              />
+              <Route 
+                path="/Grade1"
+                element={<Grade1 />}
+              />
+              <Route 
+                path="/Grade2"
+                element={<Grade2 />}
+              />
+              <Route 
+                path="/Grade3"
+                element={<Grade3 />}
               />
             </Routes>
           </div>

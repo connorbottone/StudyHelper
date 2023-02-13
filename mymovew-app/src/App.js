@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import {Courses , Homepage,CreateQuiz, SignupLogin, SingleCourse, Header} from '../src/components';
+import {Courses , Homepage,CreateQuiz, SignupLogin, SingleCourse, Header} from './components';
 import SingleQuiz from './components/SingleQuiz';
-import  '../src/assets/style.css';
+import  './assets/style.css';
 function App() {
   const [currentPage, setCurrentPage] = useState("Homepage");
   const [isLoggedIn, setIsLoggedIn] = useState(false);
