@@ -9,6 +9,12 @@ const quizSchema = new Schema({
     maxlength: 280,
     trim: true,
   },
+  gradeLevel: {
+    type: Number,
+    required: 'Grade level is required!',
+    min: 1,
+    max: 12,
+  },
   quizAuthor: {
     type: String,
     required: true,
