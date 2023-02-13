@@ -6,15 +6,16 @@ import ThoughtForm from '../components/ThoughtForm';
 import Auth from '../utils/auth';
 import { QUERY_THOUGHTS } from '../utils/queries';
 
+
 const Home = () => {
   const { loading, data } = useQuery(QUERY_THOUGHTS);
   const thoughts = data?.thoughts || [];
 
   return (
     <div>
-       <div className="homepage">
+       <div className="homepage" style={{ display: "flex", flexDirection: "row" }}>
            
-            <div class="card text-center  border border-primary mt-4">
+            <div class="card text-center  col-sm-6  hgt2-4 border border-primary mt-5 ml-5" >
                 <div class="card-header">
                     Featured
                 </div>
@@ -27,7 +28,7 @@ const Home = () => {
                 </div>
                 <div class="card-footer text-muted"></div>
             </div>
-            <div class="card text-center border border-primary mt-5">
+            <div class="card text-center border border-primary mt-5 ml-5">
                 <div class="card-header">
                     Featured
                 </div>

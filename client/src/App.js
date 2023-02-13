@@ -20,6 +20,7 @@ import CreateQuiz from './pages/CreateQuiz';
 import Grade1 from './pages/Grade1';
 import Grade2 from './pages/Grade2';
 import Grade3 from './pages/Grade3';
+import Contact from './pages/Email';
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -96,6 +97,10 @@ function App() {
               <Route 
                 path="/Grade3"
                 element={<Grade3 />}
+              />
+              <Route 
+                path="/Contact"
+                element={<Contact />}
               />
             </Routes>
           </div>
