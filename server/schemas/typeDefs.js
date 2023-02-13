@@ -6,15 +6,17 @@ const typeDefs = gql`
     username: String
     email: String
     password: String
-    thoughts: [Thought]!
+    role: String
+    scores: [Score]
   }
 
-  type Thought {
+  type Quiz {
     _id: ID
-    thoughtText: String
-    thoughtAuthor: String
+    quizTitle: String
+    quizAuthor: String
+    quiestions: [question]
+    answers: [answer]
     createdAt: String
-    comments: [Comment]!
   }
 
   type Comment {
@@ -38,12 +40,10 @@ const typeDefs = gql`
   }
 
   type Mutation {
-    addUser(username: String!, email: String!, password: String!): Auth
+    addUser(username: String!, email: String!, password: String!, role: String!): Auth
     login(email: String!, password: String!): Auth
-    addThought(thoughtText: String!): Thought
-    addComment(thoughtId: ID!, commentText: String!): Thought
-    removeThought(thoughtId: ID!): Thought
-    removeComment(thoughtId: ID!, commentId: ID!): Thought
+    addQuiz(quizTitle: String!, gradeLevel: integer, questions: [question: String!, answers [answer: String!, correct: Boolean!]] ): Quiz
+    removeQuiz(quizId: ID!): Quiz
   }
 `;
 

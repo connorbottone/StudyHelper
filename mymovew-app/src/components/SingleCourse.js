@@ -1,6 +1,6 @@
 const SingleCourse = ({currentPage, setCurrentPage}) => {
     return (
-        
+    
             <div class="card text-center  border border-primary mt-4">
     <div class="card-header">
         English
