@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
-  "engines" : {
-"npm" : ">=8.0.0 <9.0.0",
-"node" : ">=16.0.0 <17.0.0"
-},
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <17.0.0"
+  },
   "scripts": {
     "start": "node server --ignore client",
     "develop": "concurrently \"cd server && npm run start\" \"cd client && npm start\"",
@@ -19,5 +19,8 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0"
   }
 }
