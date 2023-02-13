@@ -42,7 +42,7 @@ const typeDefs = gql`
   type Mutation {
     addUser(username: String!, email: String!, password: String!, role: String!): Auth
     login(email: String!, password: String!): Auth
-    addQuiz(quizTitle: String!, questions: [question: String!, answers [answer: String!, correct: Boolean!]] ): Quiz
+    addQuiz(quizTitle: String!, gradeLevel: integer, questions: [question: String!, answers [answer: String!, correct: Boolean!]] ): Quiz
     removeQuiz(quizId: ID!): Quiz
   }
 `;
