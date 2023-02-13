@@ -34,12 +34,36 @@ const SignupLogin = ({
     <input type="text" class="form-control" id="inputCity"></input>
   </div>
 
-
   <div class="col-12">
-    <button onClick={() => handleLogin("Homepage")} type="submit" class="btn btn-primary">Submit</button>
+    <br>
+    </br>
+    <button onClick={() => handleLogin("Homepage")} type="submit" class="btn btn-primary">Sign up</button>
   </div>
+  
+  <form>
+    <br></br>
+  <div class="col md-6">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3"></input>
+    </div>
+  </div>
+  <div class="col md-6">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3"></input>
+    </div>
+  </div>
+<br>
+</br>
+<div class="col-12">
+    <br>
+    </br>
+    <button onClick={() => handleLogin("Homepage")} type="submit" class="btn btn-primary">Log in</button>
+  </div>
+</form>
 </div>
-    
+  
     
     
      /* <div class="row g-3">
