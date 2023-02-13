@@ -19,10 +19,16 @@ const userSchema = new Schema({
     required: true,
     minlength: 5,
   },
-  thoughts: [
+  role: {
+    type: String,
+    required: true,
+    enum: ['user','teacher', 'admin'],
+    default: 'user',
+  },
+  scores: [
     {
       type: Schema.Types.ObjectId,
-      ref: 'Thought',
+      ref: 'Score',
     },
   ],
 });
