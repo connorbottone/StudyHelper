@@ -1,17 +1,31 @@
+import { useQuery } from '@apollo/client';
+import { QUERY_QUIZS } from '../utils/queries';
+
 const Grade1 = () => {
-    return (
-        <div>
-            <h1>GRade 1</h1>
-            <div class="card text-center  border border-primary mt-4">
-    <div class="card-header">
-        English
+  const { loading, data } = useQuery(QUERY_QUIZS, {
+    variables: { gradeLevel: 1 },
+  });
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  const { quizs } = data;
+
+  return (
+    <div>
+      <h1>Grade 1</h1>
+      {quizs.map((quiz) => (
+        <div key={quiz._id} className="card text-center border border-primary mt-4">
+          <div className="card-header">{quiz.quizAuthor}</div>
+          <div className="card-body">
+            <h5 className="card-title">{quiz.quizTitle}</h5>
+            <p className="card-text">Blah blah blah about us and the quizes</p>
+          </div>
+        </div>
+      ))}
     </div>
-    <div class="card-body">
-        <h5 class="card-title"> english quiz</h5>
-        <p class="card-text">blah blah blah about us and the quizes</p>
-       
-    </div>
-        </div></div>
-    );
-}
+  );
+};
+
 export default Grade1;

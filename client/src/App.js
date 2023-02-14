@@ -11,8 +11,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
-import SingleThought from './pages/SingleThought';
-import Profile from './pages/Profile';
+
+
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Courses from './pages/Courses';
@@ -67,18 +67,8 @@ function App() {
                 path="/signup"
                 element={<Signup />}
               />
-              <Route 
-                path="/me"
-                element={<Profile />}
-              />
-              <Route 
-                path="/profiles/:username"
-                element={<Profile />}
-              />
-              <Route 
-                path="/thoughts/:thoughtId"
-                element={<SingleThought />}
-              />
+             
+              
               <Route 
                 path="/Courses"
                 element={<Courses />}
