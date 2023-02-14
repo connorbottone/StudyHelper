@@ -7,7 +7,9 @@ db.once('open', async () => {
   try {
     await Quiz.deleteMany({});
     await User.deleteMany({});
+    await Quiz.deleteMany({});
 
+await Quiz.create(quizSeeds);
     await User.create(userSeeds);
     await Quiz.create(quizSeeds);
     // for (let i = 0; i < quizSeeds.length; i++) {

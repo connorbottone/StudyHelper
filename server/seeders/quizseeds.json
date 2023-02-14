@@ -1,1001 +1,1007 @@
 [
-    {
-        "quizTtile": "Math Grade 1 Addition",
-        "gradeLevel": "1",
-        "quizQuestions": [
-            {
-                "question": "What is 10+10?",
-                "answers": [
-                    {
-                        "answer": "20",
-                        "correct": true
-                    },
-                    {
-                        "answer": "30",
-                        "correct": false
-                    },
-                    {
-                        "answer": "40",
-                        "correct": false
-                    },
-                    {
-                        "answer": "50",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "What is 2+20?",
-                "answers": [
-                    {
-                        "answer": "20",
-                        "correct": false
-                    },
-                    {
-                        "answer": "4",
-                        "correct": false
-                    },
-                    {
-                        "answer": "22",
-                        "correct": true
-                    },
-                    {
-                        "answer": "40",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "What is 10+20?",
-                "answers": [
-                    {
-                        "answer": "10",
-                        "correct": false
-                    },
-                    {
-                        "answer": "3",
-                        "correct": false
-                    },
-                    {
-                        "answer": "40",
-                        "correct": false
-                    },
-                    {
-                        "answer": "30",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "What is 5+5?",
-                "answers": [
-                    {
-                        "answer": "7",
-                        "correct": false
-                    },
-                    {
-                        "answer": "3",
-                        "correct": false
-                    },
-                    {
-                        "answer": "4",
-                        "correct": false
-                    },
-                    {
-                        "answer": "10",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "What is 50+50?",
-                "answers": [
-                    {
-                        "answer": "10",
-                        "correct": false
-                    },
-                    {
-                        "answer": "0",
-                        "correct": false
-                    },
-                    {
-                        "answer": "50",
-                        "correct": false
-                    },
-                    {
-                        "answer": "100",
-                        "correct": true
-                    }
-                ]
+{
+    "quizTtile": "Math Gradeee 1 Addition",
+    "gradeLevel": "1",
+    "quizAuthor": "StudyHelperAdmin",  
+    "quizQuestions": [
+        {
+            "question": "What is 10+10?",
+            "answers": [
+                {
+                    "answer": "20",
+                    "correct": true
+                },
+                {
+                    "answer": "30",
+                    "correct": false
+                },
+                {
+                    "answer": "40",
+                    "correct": false
+                },
+                {
+                    "answer": "50",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "What is 2+20?",
+            "answers": [
+                {
+                    "answer": "20",
+                    "correct": false
+                },
+                {
+                    "answer": "4",
+                    "correct": false
+                },
+                {
+                    "answer": "22",
+                    "correct": true
+                },
+                {
+                    "answer": "40",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "What is 10+20?",
+            "answers": [
+                {
+                    "answer": "10",
+                    "correct": false
+                },
+                {
+                    "answer": "3",
+                    "correct": false
+                },
+                {
+                    "answer": "40",
+                    "correct": false
+                },
+                {
+                    "answer": "30",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "What is 5+5?",
+            "answers": [
+                {
+                    "answer": "7",
+                    "correct": false
+                },
+                {
+                    "answer": "3",
+                    "correct": false
+                },
+                {
+                    "answer": "4",
+                    "correct": false
+                },
+                {
+                    "answer": "10",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "What is 50+50?",
+            "answers": [
+                {
+                    "answer": "10",
+                    "correct": false
+                },
+                {
+                    "answer": "0",
+                    "correct": false
+                },
+                {
+                    "answer": "50",
+                    "correct": false
+                },
+                {
+                    "answer": "100",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+},
+{
+    "quizTtile": "English Grade 1 ",
+    "gradeLevel": "1",
+    "quizAuthor": "StudyHelperAdmin", 
+    "quizQuestions": [
+        {
+            "question": "Do you _____ two pencils?",
+            "answers": [
+                {
+                    "answer": "Have",
+                    "correct": true
+                },
+                {
+                    "answer": "Has",
+                    "correct": false
+                },
+                {
+                    "answer": "Had",
+                    "correct": false
+                },
+                {
+                    "answer": "Do",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "I ______ good at Jump Rope?",
+            "answers": [
+                {
+                    "answer": "Is",
+                    "correct": false
+                },
+                {
+                    "answer": "Are",
+                    "correct": false
+                },
+                {
+                    "answer": "Am",
+                    "correct": true
+                },
+                {
+                    "answer": "Had",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "They ____ at the park.",
+            "answers": [
+                {
+                    "answer": "Is",
+                    "correct": false
+                },
+                {
+                    "answer": "Am",
+                    "correct": false
+                },
+                {
+                    "answer": "Has",
+                    "correct": false
+                },
+                {
+                    "answer": "Are",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Mike and Jimmy play on the same team. ______ are good friends.",
+            "answers": [
+                {
+                    "answer": "We",
+                    "correct": false
+                },
+                {
+                    "answer": "I",
+                    "correct": false
+                },
+                {
+                    "answer": "Them",
+                    "correct": false
+                },
+                {
+                    "answer": "They",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "I ________ a pencil.",
+            "answers": [
+                {
+                    "answer": "Has",
+                    "correct": false
+                },
+                {
+                    "answer": "Does",
+                    "correct": false
+                },
+                {
+                    "answer": "Do",
+                    "correct": false
+                },
+                {
+                    "answer": "Have",
+                    "correct": true
+                }
+                
+
+            ]
             }
-        ]
-    },
-    {
-        "quizTtile": "English Grade 1 ",
-        "gradeLevel": "1",
-        "quizQuestions": [
-            {
-                "question": "Do you _____ two pencils?",
-                "answers": [
-                    {
-                        "answer": "Have",
-                        "correct": true
-                    },
-                    {
-                        "answer": "Has",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Had",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Do",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "I ______ good at Jump Rope?",
-                "answers": [
-                    {
-                        "answer": "Is",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Are",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Am",
-                        "correct": true
-                    },
-                    {
-                        "answer": "Had",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "They ____ at the park.",
-                "answers": [
-                    {
-                        "answer": "Is",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Am",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Has",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Are",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "Mike and Jimmy play on the same team. ______ are good friends.",
-                "answers": [
-                    {
-                        "answer": "We",
-                        "correct": false
-                    },
-                    {
-                        "answer": "I",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Them",
-                        "correct": false
-                    },
-                    {
-                        "answer": "They",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "I ________ a pencil.",
-                "answers": [
-                    {
-                        "answer": "Has",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Does",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Do",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Have",
-                        "correct": true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "quizTtile": "Social Studies Grade 1 ",
-        "gradeLevel": "1",
-        "quizQuestions": [
-            {
-                "question": "Who was the first president of the United States?",
-                "answers": [
-                    {
-                        "answer": "George Washington",
-                        "correct": true
-                    },
-                    {
-                        "answer": "Thomas Jefferson",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Abraham Lincoln",
-                        "correct": false
-                    },
-                    {
-                        "answer": " Theodore Roosevelt",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "When is Independence day?",
-                "answers": [
-                    {
-                        "answer": "Febuary 14th",
-                        "correct": false
-                    },
-                    {
-                        "answer": "December 25th",
-                        "correct": false
-                    },
-                    {
-                        "answer": "July 4th",
-                        "correct": true
-                    },
-                    {
-                        "answer": "November 11th",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "How many states are in the United States?",
-                "answers": [
-                    {
-                        "answer": "35",
-                        "correct": false
-                    },
-                    {
-                        "answer": "45",
-                        "correct": false
-                    },
-                    {
-                        "answer": "40",
-                        "correct": false
-                    },
-                    {
-                        "answer": "50",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "How many stripes are on the American flag?",
-                "answers": [
-                    {
-                        "answer": "7",
-                        "correct": false
-                    },
-                    {
-                        "answer": "10",
-                        "correct": false
-                    },
-                    {
-                        "answer": "14",
-                        "correct": false
-                    },
-                    {
-                        "answer": "13",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "What did Christopher Columbus discover?",
-                "answers": [
-                    {
-                        "answer": "Gold",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Eletric cars",
-                        "correct": false
-                    },
-                    {
-                        "answer": "light Bulbs",
-                        "correct": false
-                    },
-                    {
-                        "answer": "America",
-                        "correct": true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "quizTtile": "Math Grade 2 ",
-        "gradeLevel": "2",
-        "quizQuestions": [
-            {
-                "question": "If i have 12 apples and i give 2 apples to my friend, how many apples do i have left?",
-                "answers": [
-                    {
-                        "answer": "10",
-                        "correct": true
-                    },
-                    {
-                        "answer": "14",
-                        "correct": false
-                    },
-                    {
-                        "answer": "20",
-                        "correct": false
-                    },
-                    {
-                        "answer": "24",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "Mary has 5 toy cars. She gives 2 to her brother. How many toy cars does Mary have left?",
-                "answers": [
-                    {
-                        "answer": "5",
-                        "correct": false
-                    },
-                    {
-                        "answer": "4",
-                        "correct": false
-                    },
-                    {
-                        "answer": "3",
-                        "correct": true
-                    },
-                    {
-                        "answer": "7",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "If a pack of stickers has 12 stickers and Sally has 3 packs of stickers, how many stickers does Sally have in total?",
-                "answers": [
-                    {
-                        "answer": "9",
-                        "correct": false
-                    },
-                    {
-                        "answer": "15",
-                        "correct": false
-                    },
-                    {
-                        "answer": "24",
-                        "correct": false
-                    },
-                    {
-                        "answer": "36",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "A box of crayons has 24 crayons. If 8 crayons are taken out of the box, how many crayons are left in the box?",
-                "answers": [
-                    {
-                        "answer": "7",
-                        "correct": false
-                    },
-                    {
-                        "answer": "18",
-                        "correct": false
-                    },
-                    {
-                        "answer": "32",
-                        "correct": false
-                    },
-                    {
-                        "answer": "16",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "There are 7 birds on a wire. 3 more birds land on the wire. How many birds are on the wire now?",
-                "answers": [
-                    {
-                        "answer": "9",
-                        "correct": false
-                    },
-                    {
-                        "answer": "0",
-                        "correct": false
-                    },
-                    {
-                        "answer": "5",
-                        "correct": false
-                    },
-                    {
-                        "answer": "10",
-                        "correct": true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "quizTtile": "English Grade 2 ",
-        "gradeLevel": "2",
-        "quizQuestions": [
-            {
-                "question": "Jhon : _______ is your favorite color? Mary : My favorite color is red.",
-                "answers": [
-                    {
-                        "answer": "What",
-                        "correct": true
-                    },
-                    {
-                        "answer": "Why",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Where",
-                        "correct": false
-                    },
-                    {
-                        "answer": "When",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "How many syllabels are in the sentence 'I have a Cat'?",
-                "answers": [
-                    {
-                        "answer": "5",
-                        "correct": false
-                    },
-                    {
-                        "answer": "3",
-                        "correct": false
-                    },
-                    {
-                        "answer": "4",
-                        "correct": true
-                    },
-                    {
-                        "answer": "7",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "Teacher: _______ are you late? Student: I am sorry, I was playing with my dog.",
-                "answers": [
-                    {
-                        "answer": "Where",
-                        "correct": false
-                    },
-                    {
-                        "answer": "What",
-                        "correct": false
-                    },
-                    {
-                        "answer": "When",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Why",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "Watchout that stick is sharp ______ a knife!!",
-                "answers": [
-                    {
-                        "answer": "Or",
-                        "correct": false
-                    },
-                    {
-                        "answer": "But",
-                        "correct": false
-                    },
-                    {
-                        "answer": "So",
-                        "correct": false
-                    },
-                    {
-                        "answer": "As",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "I ____ an Eagle yesterday.",
-                "answers": [
-                    {
-                        "answer": "Seed",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Seeing",
-                        "correct": false
-                    },
-                    {
-                        "answer": "See",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Saw",
-                        "correct": true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "quizTtile": "Social Studies Grade 2 Geography ",
-        "gradeLevel": "2",
-        "quizQuestions": [
-            {
-                "question": "Where in the world is the statue of liberty?",
-                "answers": [
-                    {
-                        "answer": "United States",
-                        "correct": true
-                    },
-                    {
-                        "answer": "Canada",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Mexico",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Brazil",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "Where in the world can you visit the Great Wall of China?",
-                "answers": [
-                    {
-                        "answer": "Russia",
-                        "correct": false
-                    },
-                    {
-                        "answer": "England",
-                        "correct": false
-                    },
-                    {
-                        "answer": "China",
-                        "correct": true
-                    },
-                    {
-                        "answer": "Japan",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "Where in the world can you visit the Pryamids?",
-                "answers": [
-                    {
-                        "answer": "France",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Italy",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Greece",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Egypt",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "Where in the world can you visit the Eiffel Tower?",
-                "answers": [
-                    {
-                        "answer": "Cuba",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Brazil",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Italy",
-                        "correct": false
-                    },
-                    {
-                        "answer": "France",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "Where would you go to visit the Amazon rainforest?",
-                "answers": [
-                    {
-                        "answer": "China",
-                        "correct": false
-                    },
-                    {
-                        "answer": "England",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Egypt",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Brazil",
-                        "correct": true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "quizTtile": "Math Grade 3",
-        "gradeLevel": "3",
-        "quizQuestions": [
-            {
-                "question": "If a bike has 2 wheels and a tricycle has 3 wheels, how many wheels do 4 tricycles have",
-                "answers": [
-                    {
-                        "answer": "12",
-                        "correct": true
-                    },
-                    {
-                        "answer": "5",
-                        "correct": false
-                    },
-                    {
-                        "answer": "9",
-                        "correct": false
-                    },
-                    {
-                        "answer": "8",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "There are 7 students in a class. Each student has 6 pencils. How many pencils are there in total?",
-                "answers": [
-                    {
-                        "answer": "50",
-                        "correct": false
-                    },
-                    {
-                        "answer": "32",
-                        "correct": false
-                    },
-                    {
-                        "answer": "42",
-                        "correct": true
-                    },
-                    {
-                        "answer": "74",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "A pizza is cut into 8 slices. If 3 people each have 2 slices, how many slices are left?",
-                "answers": [
-                    {
-                        "answer": "1",
-                        "correct": false
-                    },
-                    {
-                        "answer": "8",
-                        "correct": false
-                    },
-                    {
-                        "answer": "4",
-                        "correct": false
-                    },
-                    {
-                        "answer": "2",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "If a rectangle has a length of 6 units and a width of 4 units, what is the area of the rectangle?(Hint: Area = length x width)",
-                "answers": [
-                    {
-                        "answer": "12",
-                        "correct": false
-                    },
-                    {
-                        "answer": "44",
-                        "correct": false
-                    },
-                    {
-                        "answer": "30",
-                        "correct": false
-                    },
-                    {
-                        "answer": "24",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "If a box contains 12 packs of gum and each pack has 5 pieces of gum, how many pieces of gum are in the box?",
-                "answers": [
-                    {
-                        "answer": "27",
-                        "correct": false
-                    },
-                    {
-                        "answer": "65",
-                        "correct": false
-                    },
-                    {
-                        "answer": "17",
-                        "correct": false
-                    },
-                    {
-                        "answer": "60",
-                        "correct": true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "quizTtile": "English Grade 3",
-        "gradeLevel": "3",
-        "quizQuestions": [
-            {
-                "question": "What is a noun?",
-                "answers": [
-                    {
-                        "answer": " A word that names a person, place, thing, or idea.",
-                        "correct": true
-                    },
-                    {
-                        "answer": "A word that shows action",
-                        "correct": false
-                    },
-                    {
-                        "answer": " A word that describes a verb",
-                        "correct": false
-                    },
-                    {
-                        "answer": "A word that is used to join two clauses.",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "What is a verb?",
-                "answers": [
-                    {
-                        "answer": "A word that is used to ask a question,",
-                        "correct": false
-                    },
-                    {
-                        "answer": "A word that describes a noun",
-                        "correct": false
-                    },
-                    {
-                        "answer": "a word that shows action or state of being",
-                        "correct": true
-                    },
-                    {
-                        "answer": " A word that names a person, place, thing, or idea.",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "What is an adjective?",
-                "answers": [
-                    {
-                        "answer": "A word that shows possession.",
-                        "correct": false
-                    },
-                    {
-                        "answer": " A word that connects two nouns,",
-                        "correct": false
-                    },
-                    {
-                        "answer": "A word that shows action",
-                        "correct": false
-                    },
-                    {
-                        "answer": "A word that describes a noun or pronoun.",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "What is a homophone",
-                "answers": [
-                    {
-                        "answer": "a word that is pronounced differently from another word.",
-                        "correct": false
-                    },
-                    {
-                        "answer": "A homophone is a word that is spelled the same as another word",
-                        "correct": false
-                    },
-                    {
-                        "answer": "a word that means the same as another word",
-                        "correct": false
-                    },
-                    {
-                        "answer": "A word that sounds the same as another word but has a different meaning and spelling.",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "What is a synonym?",
-                "answers": [
-                    {
-                        "answer": " A word that rhymes with another word.",
-                        "correct": false
-                    },
-                    {
-                        "answer": "A word that has only one syllable",
-                        "correct": false
-                    },
-                    {
-                        "answer": "A word that has a different meaning from another word",
-                        "correct": false
-                    },
-                    {
-                        "answer": "A word that has the same or similar meaning as another ",
-                        "correct": true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "quizTtile": "Social Studies Grade 3 contintents",
-        "gradeLevel": "3",
-        "quizQuestions": [
-            {
-                "question": "What is a continent?",
-                "answers": [
-                    {
-                        "answer": " A large landmass on Earth.",
-                        "correct": true
-                    },
-                    {
-                        "answer": "A type of animal",
-                        "correct": false
-                    },
-                    {
-                        "answer": " A large body of water",
-                        "correct": false
-                    },
-                    {
-                        "answer": "A type of weather pattern.",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "How many Continents are there?",
-                "answers": [
-                    {
-                        "answer": "5",
-                        "correct": false
-                    },
-                    {
-                        "answer": "6",
-                        "correct": false
-                    },
-                    {
-                        "answer": "7",
-                        "correct": true
-                    },
-                    {
-                        "answer": " 8",
-                        "correct": false
-                    }
-                ]
-            },
-            {
-                "question": "What is the largets continent?",
-                "answers": [
-                    {
-                        "answer": "North America.",
-                        "correct": false
-                    },
-                    {
-                        "answer": " South America",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Europe",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Asia.",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "Whice one of these is not a continent?",
-                "answers": [
-                    {
-                        "answer": "Africa",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Australia",
-                        "correct": false
-                    },
-                    {
-                        "answer": "Antarctica",
-                        "correct": false
-                    },
-                    {
-                        "answer": "China",
-                        "correct": true
-                    }
-                ]
-            },
-            {
-                "question": "How many Oceans are there",
-                "answers": [
-                    {
-                        "answer": " 10",
-                        "correct": false
-                    },
-                    {
-                        "answer": "3",
-                        "correct": false
-                    },
-                    {
-                        "answer": "7",
-                        "correct": false
-                    },
-                    {
-                        "answer": "5 ",
-                        "correct": true
-                    }
-                ]
-            }
-        ]
-    }
+            ]
+        },
+        {
+            "quizTtile": "Social Studies Grade 1 ",
+            "gradeLevel": "1",
+            "quizQuestions": [
+                {
+                    "question": "Who was the first president of the United States?",
+                    "answers": [
+                        {
+                            "answer": "George Washington",
+                            "correct": true
+                        },
+                        {
+                            "answer": "Thomas Jefferson",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Abraham Lincoln",
+                            "correct": false
+                        },
+                        {
+                            "answer": " Theodore Roosevelt",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "When is Independence day?",
+                    "answers": [
+                        {
+                            "answer": "Febuary 14th",
+                            "correct": false
+                        },
+                        {
+                            "answer": "December 25th",
+                            "correct": false
+                        },
+                        {
+                            "answer": "July 4th",
+                            "correct": true
+                        },
+                        {
+                            "answer": "November 11th",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "How many states are in the United States?",
+                    "answers": [
+                        {
+                            "answer": "35",
+                            "correct": false
+                        },
+                        {
+                            "answer": "45",
+                            "correct": false
+                        },
+                        {
+                            "answer": "40",
+                            "correct": false
+                        },
+                        {
+                            "answer": "50",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "How many stripes are on the American flag?",
+                    "answers": [
+                        {
+                            "answer": "7",
+                            "correct": false
+                        },
+                        {
+                            "answer": "10",
+                            "correct": false
+                        },
+                        {
+                            "answer": "14",
+                            "correct": false
+                        },
+                        {
+                            "answer": "13",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "What did Christopher Columbus discover?",
+                    "answers": [
+                        {
+                            "answer": "Gold",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Eletric cars",
+                            "correct": false
+                        },
+                        {
+                            "answer": "light Bulbs",
+                            "correct": false
+                        },
+                        {
+                            "answer": "America",
+                            "correct": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "quizTtile": "Math Grade 2 ",
+            "gradeLevel": "2",
+            "quizQuestions": [
+                {
+                    "question": "If i have 12 apples and i give 2 apples to my friend, how many apples do i have left?",
+                    "answers": [
+                        {
+                            "answer": "10",
+                            "correct": true
+                        },
+                        {
+                            "answer": "14",
+                            "correct": false
+                        },
+                        {
+                            "answer": "20",
+                            "correct": false
+                        },
+                        {
+                            "answer": "24",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Mary has 5 toy cars. She gives 2 to her brother. How many toy cars does Mary have left?",
+                    "answers": [
+                        {
+                            "answer": "5",
+                            "correct": false
+                        },
+                        {
+                            "answer": "4",
+                            "correct": false
+                        },
+                        {
+                            "answer": "3",
+                            "correct": true
+                        },
+                        {
+                            "answer": "7",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "If a pack of stickers has 12 stickers and Sally has 3 packs of stickers, how many stickers does Sally have in total?",
+                    "answers": [
+                        {
+                            "answer": "9",
+                            "correct": false
+                        },
+                        {
+                            "answer": "15",
+                            "correct": false
+                        },
+                        {
+                            "answer": "24",
+                            "correct": false
+                        },
+                        {
+                            "answer": "36",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "A box of crayons has 24 crayons. If 8 crayons are taken out of the box, how many crayons are left in the box?",
+                    "answers": [
+                        {
+                            "answer": "7",
+                            "correct": false
+                        },
+                        {
+                            "answer": "18",
+                            "correct": false
+                        },
+                        {
+                            "answer": "32",
+                            "correct": false
+                        },
+                        {
+                            "answer": "16",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "There are 7 birds on a wire. 3 more birds land on the wire. How many birds are on the wire now?",
+                    "answers": [
+                        {
+                            "answer": "9",
+                            "correct": false
+                        },
+                        {
+                            "answer": "0",
+                            "correct": false
+                        },
+                        {
+                            "answer": "5",
+                            "correct": false
+                        },
+                        {
+                            "answer": "10",
+                            "correct": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "quizTtile": "English Grade 2 ",
+            "gradeLevel": "2",
+            "quizQuestions": [
+                {
+                    "question": "Jhon : _______ is your favorite color? Mary : My favorite color is red.",
+                    "answers": [
+                        {
+                            "answer": "What",
+                            "correct": true
+                        },
+                        {
+                            "answer": "Why",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Where",
+                            "correct": false
+                        },
+                        {
+                            "answer": "When",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "How many syllabels are in the sentence 'I have a Cat'?",
+                    "answers": [
+                        {
+                            "answer": "5",
+                            "correct": false
+                        },
+                        {
+                            "answer": "3",
+                            "correct": false
+                        },
+                        {
+                            "answer": "4",
+                            "correct": true
+                        },
+                        {
+                            "answer": "7",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Teacher: _______ are you late? Student: I am sorry, I was playing with my dog.",
+                    "answers": [
+                        {
+                            "answer": "Where",
+                            "correct": false
+                        },
+                        {
+                            "answer": "What",
+                            "correct": false
+                        },
+                        {
+                            "answer": "When",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Why",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "Watchout that stick is sharp ______ a knife!!",
+                    "answers": [
+                        {
+                            "answer": "Or",
+                            "correct": false
+                        },
+                        {
+                            "answer": "But",
+                            "correct": false
+                        },
+                        {
+                            "answer": "So",
+                            "correct": false
+                        },
+                        {
+                            "answer": "As",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "I ____ an Eagle yesterday.",
+                    "answers": [
+                        {
+                            "answer": "Seed",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Seeing",
+                            "correct": false
+                        },
+                        {
+                            "answer": "See",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Saw",
+                            "correct": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "quizTtile": "Social Studies Grade 2 Geography ",
+            "gradeLevel": "2",
+            "quizQuestions": [
+                {
+                    "question": "Where in the world is the statue of liberty?",
+                    "answers": [
+                        {
+                            "answer": "United States",
+                            "correct": true
+                        },
+                        {
+                            "answer": "Canada",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Mexico",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Brazil",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Where in the world can you visit the Great Wall of China?",
+                    "answers": [
+                        {
+                            "answer": "Russia",
+                            "correct": false
+                        },
+                        {
+                            "answer": "England",
+                            "correct": false
+                        },
+                        {
+                            "answer": "China",
+                            "correct": true
+                        },
+                        {
+                            "answer": "Japan",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Where in the world can you visit the Pryamids?",
+                    "answers": [
+                        {
+                            "answer": "France",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Italy",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Greece",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Egypt",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "Where in the world can you visit the Eiffel Tower?",
+                    "answers": [
+                        {
+                            "answer": "Cuba",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Brazil",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Italy",
+                            "correct": false
+                        },
+                        {
+                            "answer": "France",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "Where would you go to visit the Amazon rainforest?",
+                    "answers": [
+                        {
+                            "answer": "China",
+                            "correct": false
+                        },
+                        {
+                            "answer": "England",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Egypt",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Brazil",
+                            "correct": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "quizTtile": "Math Grade 3",
+            "gradeLevel": "3",
+            "quizQuestions": [
+                {
+                    "question": "If a bike has 2 wheels and a tricycle has 3 wheels, how many wheels do 4 tricycles have",
+                    "answers": [
+                        {
+                            "answer": "12",
+                            "correct": true
+                        },
+                        {
+                            "answer": "5",
+                            "correct": false
+                        },
+                        {
+                            "answer": "9",
+                            "correct": false
+                        },
+                        {
+                            "answer": "8",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "There are 7 students in a class. Each student has 6 pencils. How many pencils are there in total?",
+                    "answers": [
+                        {
+                            "answer": "50",
+                            "correct": false
+                        },
+                        {
+                            "answer": "32",
+                            "correct": false
+                        },
+                        {
+                            "answer": "42",
+                            "correct": true
+                        },
+                        {
+                            "answer": "74",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "A pizza is cut into 8 slices. If 3 people each have 2 slices, how many slices are left?",
+                    "answers": [
+                        {
+                            "answer": "1",
+                            "correct": false
+                        },
+                        {
+                            "answer": "8",
+                            "correct": false
+                        },
+                        {
+                            "answer": "4",
+                            "correct": false
+                        },
+                        {
+                            "answer": "2",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "If a rectangle has a length of 6 units and a width of 4 units, what is the area of the rectangle?(Hint: Area = length x width)",
+                    "answers": [
+                        {
+                            "answer": "12",
+                            "correct": false
+                        },
+                        {
+                            "answer": "44",
+                            "correct": false
+                        },
+                        {
+                            "answer": "30",
+                            "correct": false
+                        },
+                        {
+                            "answer": "24",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "If a box contains 12 packs of gum and each pack has 5 pieces of gum, how many pieces of gum are in the box?",
+                    "answers": [
+                        {
+                            "answer": "27",
+                            "correct": false
+                        },
+                        {
+                            "answer": "65",
+                            "correct": false
+                        },
+                        {
+                            "answer": "17",
+                            "correct": false
+                        },
+                        {
+                            "answer": "60",
+                            "correct": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "quizTtile": "English Grade 3",
+            "gradeLevel": "3",
+            "quizQuestions": [
+                {
+                    "question": "What is a noun?",
+                    "answers": [
+                        {
+                            "answer": " A word that names a person, place, thing, or idea.",
+                            "correct": true
+                        },
+                        {
+                            "answer": "A word that shows action",
+                            "correct": false
+                        },
+                        {
+                            "answer": " A word that describes a verb",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that is used to join two clauses.",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "What is a verb?",
+                    "answers": [
+                        {
+                            "answer": "A word that is used to ask a question,",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that describes a noun",
+                            "correct": false
+                        },
+                        {
+                            "answer": "a word that shows action or state of being",
+                            "correct": true
+                        },
+                        {
+                            "answer": " A word that names a person, place, thing, or idea.",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "What is an adjective?",
+                    "answers": [
+                        {
+                            "answer": "A word that shows possession.",
+                            "correct": false
+                        },
+                        {
+                            "answer": " A word that connects two nouns,",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that shows action",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that describes a noun or pronoun.",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "What is a homophone",
+                    "answers": [
+                        {
+                            "answer": "a word that is pronounced differently from another word.",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A homophone is a word that is spelled the same as another word",
+                            "correct": false
+                        },
+                        {
+                            "answer": "a word that means the same as another word",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that sounds the same as another word but has a different meaning and spelling.",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "What is a synonym?",
+                    "answers": [
+                        {
+                            "answer": " A word that rhymes with another word.",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that has only one syllable",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that has a different meaning from another word",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that has the same or similar meaning as another ",
+                            "correct": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "quizTtile": "Social Studies Grade 3 contintents",
+            "gradeLevel": "3",
+            "quizQuestions": [
+                {
+                    "question": "What is a continent?",
+                    "answers": [
+                        {
+                            "answer": " A large landmass on Earth.",
+                            "correct": true
+                        },
+                        {
+                            "answer": "A type of animal",
+                            "correct": false
+                        },
+                        {
+                            "answer": " A large body of water",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A type of weather pattern.",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "How many Continents are there?",
+                    "answers": [
+                        {
+                            "answer": "5",
+                            "correct": false
+                        },
+                        {
+                            "answer": "6",
+                            "correct": false
+                        },
+                        {
+                            "answer": "7",
+                            "correct": true
+                        },
+                        {
+                            "answer": " 8",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "What is the largets continent?",
+                    "answers": [
+                        {
+                            "answer": "North America.",
+                            "correct": false
+                        },
+                        {
+                            "answer": " South America",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Europe",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Asia.",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "Whice one of these is not a continent?",
+                    "answers": [
+                        {
+                            "answer": "Africa",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Australia",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Antarctica",
+                            "correct": false
+                        },
+                        {
+                            "answer": "China",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "How many Oceans are there",
+                    "answers": [
+                        {
+                            "answer": " 10",
+                            "correct": false
+                        },
+                        {
+                            "answer": "3",
+                            "correct": false
+                        },
+                        {
+                            "answer": "7",
+                            "correct": false
+                        },
+                        {
+                            "answer": "5 ",
+                            "correct": true
+                        }
+                    ]
+                }
+            ]
+        }
+        
+
 ]
