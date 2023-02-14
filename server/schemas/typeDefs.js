@@ -12,8 +12,22 @@ const typeDefs = gql`
     _id: ID
     quizTitle: String
     quizAuthor: String
-    quiestions: [question]
-    answers: [answer]
+    questions: [Question]
+    answers: [Answer]
+    createdAt: String
+  }
+
+  type Question {
+    _id: ID
+    questionText: String
+    answers: [Answer]
+    createdAt: String
+  }
+
+  type Answer {
+    _id: ID
+    answerText: String
+    correct: Boolean
     createdAt: String
   }
 
@@ -25,10 +39,8 @@ const typeDefs = gql`
   type Query {
     users: [User]
     user(username: String!): User
-    thoughts(username: String): [Thought]
-    thought(thoughtId: ID!): Thought
     me: User
-    quizs(gradeLevel!): [Quiz]
+    quizs(gradeLevel: Int!): [Quiz]
     quiz(quizId: ID!): Quiz
   }
 
@@ -36,7 +48,7 @@ const typeDefs = gql`
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
     removeQuiz(quizId: ID!): Quiz
-    addQuiz(quizTitle: String!, gradeLevel: integer!): Quiz
+    addQuiz(quizTitle: String!, gradeLevel: Int!): Quiz
     addQuestion(quizId: ID!, questionText: String!): Quiz
     addAnswer(questionId: ID!, answerText: String!, correct: Boolean!): Quiz
   }
