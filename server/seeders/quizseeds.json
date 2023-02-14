@@ -1,0 +1,340 @@
+[
+{
+    "quizTtile": "Math Grade 1 Addition",
+    "gradeLevel": "1",
+    "quizQuestions": [
+        {
+            "question": "What is 10+10?",
+            "answers": [
+                {
+                    "answer": "20",
+                    "correct": true
+                },
+                {
+                    "answer": "30",
+                    "correct": false
+                },
+                {
+                    "answer": "40",
+                    "correct": false
+                },
+                {
+                    "answer": "50",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "What is 2+20?",
+            "answers": [
+                {
+                    "answer": "20",
+                    "correct": false
+                },
+                {
+                    "answer": "4",
+                    "correct": false
+                },
+                {
+                    "answer": "22",
+                    "correct": true
+                },
+                {
+                    "answer": "40",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "What is 10+20?",
+            "answers": [
+                {
+                    "answer": "10",
+                    "correct": false
+                },
+                {
+                    "answer": "3",
+                    "correct": false
+                },
+                {
+                    "answer": "40",
+                    "correct": false
+                },
+                {
+                    "answer": "30",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "What is 5+5?",
+            "answers": [
+                {
+                    "answer": "7",
+                    "correct": false
+                },
+                {
+                    "answer": "3",
+                    "correct": false
+                },
+                {
+                    "answer": "4",
+                    "correct": false
+                },
+                {
+                    "answer": "10",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "What is 50+50?",
+            "answers": [
+                {
+                    "answer": "10",
+                    "correct": false
+                },
+                {
+                    "answer": "0",
+                    "correct": false
+                },
+                {
+                    "answer": "50",
+                    "correct": false
+                },
+                {
+                    "answer": "100",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+},
+{
+    "quizTtile": "English Grade 1 ",
+    "gradeLevel": "1",
+    "quizQuestions": [
+        {
+            "question": "Do you _____ two pencils?",
+            "answers": [
+                {
+                    "answer": "Have",
+                    "correct": true
+                },
+                {
+                    "answer": "Has",
+                    "correct": false
+                },
+                {
+                    "answer": "Had",
+                    "correct": false
+                },
+                {
+                    "answer": "Do",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "I ______ good at Jump Rope?",
+            "answers": [
+                {
+                    "answer": "Is",
+                    "correct": false
+                },
+                {
+                    "answer": "Are",
+                    "correct": false
+                },
+                {
+                    "answer": "Am",
+                    "correct": true
+                },
+                {
+                    "answer": "Had",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "They ____ at the park.",
+            "answers": [
+                {
+                    "answer": "Is",
+                    "correct": false
+                },
+                {
+                    "answer": "Am",
+                    "correct": false
+                },
+                {
+                    "answer": "Has",
+                    "correct": false
+                },
+                {
+                    "answer": "Are",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Mike and Jimmy play on the same team. ______ are good friends.",
+            "answers": [
+                {
+                    "answer": "We",
+                    "correct": false
+                },
+                {
+                    "answer": "I",
+                    "correct": false
+                },
+                {
+                    "answer": "Them",
+                    "correct": false
+                },
+                {
+                    "answer": "They",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "I ________ a pencil.",
+            "answers": [
+                {
+                    "answer": "Has",
+                    "correct": false
+                },
+                {
+                    "answer": "Does",
+                    "correct": false
+                },
+                {
+                    "answer": "Do",
+                    "correct": false
+                },
+                {
+                    "answer": "Have",
+                    "correct": true
+                }
+                
+
+            ]
+            }
+            ]
+        },
+        {
+            "quizTtile": "Social Studies Grade 1 ",
+            "gradeLevel": "1",
+            "quizQuestions": [
+                {
+                    "question": "Who was the first president of the United States?",
+                    "answers": [
+                        {
+                            "answer": "George Washington",
+                            "correct": true
+                        },
+                        {
+                            "answer": "Thomas Jefferson",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Abraham Lincoln",
+                            "correct": false
+                        },
+                        {
+                            "answer": " Theodore Roosevelt",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "When is Independence day?",
+                    "answers": [
+                        {
+                            "answer": "Febuary 14th",
+                            "correct": false
+                        },
+                        {
+                            "answer": "December 25th",
+                            "correct": false
+                        },
+                        {
+                            "answer": "July 4th",
+                            "correct": true
+                        },
+                        {
+                            "answer": "November 11th",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "How many states are in the United States?",
+                    "answers": [
+                        {
+                            "answer": "35",
+                            "correct": false
+                        },
+                        {
+                            "answer": "45",
+                            "correct": false
+                        },
+                        {
+                            "answer": "40",
+                            "correct": false
+                        },
+                        {
+                            "answer": "50",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "How many stripes are on the American flag?",
+                    "answers": [
+                        {
+                            "answer": "7",
+                            "correct": false
+                        },
+                        {
+                            "answer": "10",
+                            "correct": false
+                        },
+                        {
+                            "answer": "14",
+                            "correct": false
+                        },
+                        {
+                            "answer": "13",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "What did Christopher Columbus discover?",
+                    "answers": [
+                        {
+                            "answer": "Gold",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Eletric cars",
+                            "correct": false
+                        },
+                        {
+                            "answer": "light Bulbs",
+                            "correct": false
+                        },
+                        {
+                            "answer": "America",
+                            "correct": true
+                        }
+                    ]
+                }
+            ]
+        },
+        
+
+
+]
