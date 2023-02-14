@@ -49,10 +49,12 @@ const typeDefs = gql`
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
     removeQuiz(quizId: ID!): Quiz
-    addQuiz(quizTitle: String!, gradeLevel: Int!): Quiz
-    addQuestion(quizId: ID!, question: String!): Quiz
-    addAnswer(questionId: ID!, answer: String!, correct: Boolean!): Quiz
+    addQuiz(quizTitle: String!, gradeLevel: Int!, quizAuthor: String!, Questions: String!): Quiz
   }
 `;
 
 module.exports = typeDefs;
+
+// addQuiz(quizTitle: String!, gradeLevel: Int!): Quiz
+// addQuestion(quizId: ID!, question: String!): Quiz
+// addAnswer(questionId: ID!, answer: String!, correct: Boolean!): Quiz
