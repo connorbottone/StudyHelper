@@ -47,4 +47,5 @@ import '../../public/css/style.css';
         <div id="js-highscores"></div>
     </div>
 </body>
-
+    )};
+export default Quiz;
