@@ -37,7 +37,7 @@ query Quiz($quizId: ID!) {
     }
   }
 }
-`;git 
+`;
 
 
 

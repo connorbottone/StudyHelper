@@ -1,15 +1,12 @@
 import React from 'react';
 import { useQuery } from '@apollo/client';
 import { Link } from 'react-router-dom';
-import ThoughtList from '../components/ThoughtList';
-import ThoughtForm from '../components/ThoughtForm';
-import Auth from '../utils/auth';
-import { QUERY_THOUGHTS } from '../utils/queries';
+
+
 
 
 const Home = () => {
-  const { loading, data } = useQuery(QUERY_THOUGHTS);
-  const thoughts = data?.thoughts || [];
+
 
   return (
     <div>
