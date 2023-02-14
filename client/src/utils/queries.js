@@ -14,34 +14,33 @@ export const QUERY_USER = gql`
     }
   }
 `;
-
-export const QUERY_THOUGHTS = gql`
-  query getThoughts {
-    thoughts {
-      _id
-      thoughtText
-      thoughtAuthor
-      createdAt
-    }
+export const QUERY_QUIZS = gql`
+query Quizs($gradeLevel: Int!) {
+  quizs(gradeLevel: $gradeLevel) {
+    quizAuthor
+    quizTitle
+   
+    _id
   }
+}
 `;
-
-export const QUERY_SINGLE_THOUGHT = gql`
-  query getSingleThought($thoughtId: ID!) {
-    thought(thoughtId: $thoughtId) {
-      _id
-      thoughtText
-      thoughtAuthor
-      createdAt
-      comments {
-        _id
-        commentText
-        commentAuthor
-        createdAt
+export const QUERY_QUIZ = gql`
+query Quiz($quizId: ID!) {
+  quiz(quizId: $quizId) {
+    quizTitle
+    questions {
+      question
+      answers {
+        answer
+        correct
       }
     }
   }
-`;
+}
+`;git 
+
+
+
 
 export const QUERY_ME = gql`
   query me {
