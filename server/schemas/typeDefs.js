@@ -13,6 +13,7 @@ const typeDefs = gql`
     quizTitle: String
     gradeLevel: Int
     quizAuthor: String
+    gradeLevel: Int
     questions: [Question]
     answers: [Answer]
     createdAt: String
@@ -49,7 +50,9 @@ const typeDefs = gql`
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
     removeQuiz(quizId: ID!): Quiz
-    addQuiz(quizTitle: String!, gradeLevel: Int!, quizAuthor: String!, Questions: String!): Quiz
+    addQuiz(quizTitle: String!, gradeLevel: Int!): Quiz
+    addQuestion(quizId: ID!, questionText: String!): Quiz
+    addAnswer(questionId: ID!, answerText: String!, correct: Boolean!): Quiz
   }
 `;
 

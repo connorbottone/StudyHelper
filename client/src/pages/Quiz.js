@@ -1,5 +1,7 @@
-
-
+// import '../js/quiz';
+import '../css/style.css';
+const Quiz = () => {
+    return (
 <body>
     <div class="container">
 
@@ -45,13 +47,6 @@
         <button id="js-submitBtn">Submit</button>
         <div id="js-highscores"></div>
     </div>
-
-    {/* <div id="score-page" class = 'hide'>
-        <h1>Highscore:</h1>
-        <ul id="input-list"></ul>
-        <button id="restart-btn">Restart</button>
-    </div>  */}
-
-    <script src="./js/script.js"></script>
 </body>
-
+    )};
+export default Quiz;

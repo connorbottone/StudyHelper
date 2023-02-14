@@ -11,8 +11,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
-import SingleThought from './pages/SingleThought';
-import Profile from './pages/Profile';
+
+
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Courses from './pages/Courses';
@@ -21,6 +21,7 @@ import Grade1 from './pages/Grade1';
 import Grade2 from './pages/Grade2';
 import Grade3 from './pages/Grade3';
 import Contact from './pages/Email';
+import Quiz from './pages/Quiz';
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -66,18 +67,8 @@ function App() {
                 path="/signup"
                 element={<Signup />}
               />
-              <Route 
-                path="/me"
-                element={<Profile />}
-              />
-              <Route 
-                path="/profiles/:username"
-                element={<Profile />}
-              />
-              <Route 
-                path="/thoughts/:thoughtId"
-                element={<SingleThought />}
-              />
+             
+              
               <Route 
                 path="/Courses"
                 element={<Courses />}
@@ -101,6 +92,10 @@ function App() {
               <Route 
                 path="/Contact"
                 element={<Contact />}
+              />
+              <Route 
+                path="/Quiz"
+                element={<Quiz />}
               />
             </Routes>
           </div>

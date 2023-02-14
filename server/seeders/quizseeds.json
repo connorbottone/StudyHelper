@@ -1,9 +1,9 @@
 [
 {
-    "quizTtile": "Math Gradeee 1 Addition",
+    "quizTitle": "Math Gradeee 1 Addition",
     "gradeLevel": "1",
     "quizAuthor": "StudyHelperAdmin",  
-    "quizQuestions": [
+    "questions": [
         {
             "question": "What is 10+10?",
             "answers": [
@@ -112,10 +112,10 @@
     ]
 },
 {
-    "quizTtile": "English Grade 1 ",
+    "quizTitle": "English Grade 1 ",
     "gradeLevel": "1",
     "quizAuthor": "StudyHelperAdmin", 
-    "quizQuestions": [
+    "questions": [
         {
             "question": "Do you _____ two pencils?",
             "answers": [
@@ -226,9 +226,10 @@
             ]
         },
         {
-            "quizTtile": "Social Studies Grade 1 ",
+            "quizTitle": "Social Studies Grade 1 ",
             "gradeLevel": "1",
-            "quizQuestions": [
+            "quizAuthor": "StudyHelperAdmin", 
+            "questions": [
                 {
                     "question": "Who was the first president of the United States?",
                     "answers": [
@@ -337,9 +338,10 @@
             ]
         },
         {
-            "quizTtile": "Math Grade 2 ",
+            "quizTitle": "Math Grade 2 ",
             "gradeLevel": "2",
-            "quizQuestions": [
+            "quizAuthor": "StudyHelperAdmin", 
+            "questions": [
                 {
                     "question": "If i have 12 apples and i give 2 apples to my friend, how many apples do i have left?",
                     "answers": [
@@ -448,9 +450,10 @@
             ]
         },
         {
-            "quizTtile": "English Grade 2 ",
+            "quizTitle": "English Grade 2 ",
             "gradeLevel": "2",
-            "quizQuestions": [
+            "quizAuthor": "StudyHelperAdmin", 
+            "questions": [
                 {
                     "question": "Jhon : _______ is your favorite color? Mary : My favorite color is red.",
                     "answers": [
@@ -559,9 +562,10 @@
             ]
         },
         {
-            "quizTtile": "Social Studies Grade 2 Geography ",
+            "quizTitle": "Social Studies Grade 2 Geography ",
             "gradeLevel": "2",
-            "quizQuestions": [
+            "quizAuthor": "StudyHelperAdmin", 
+            "questions": [
                 {
                     "question": "Where in the world is the statue of liberty?",
                     "answers": [
@@ -670,9 +674,10 @@
             ]
         },
         {
-            "quizTtile": "Math Grade 3",
+            "quizTitle": "Math Grade 3",
             "gradeLevel": "3",
-            "quizQuestions": [
+            "quizAuthor": "StudyHelperAdmin", 
+            "questions": [
                 {
                     "question": "If a bike has 2 wheels and a tricycle has 3 wheels, how many wheels do 4 tricycles have",
                     "answers": [
@@ -781,9 +786,10 @@
             ]
         },
         {
-            "quizTtile": "English Grade 3",
+            "quizTitle": "English Grade 3",
             "gradeLevel": "3",
-            "quizQuestions": [
+            "quizAuthor": "StudyHelperAdmin", 
+            "questions": [
                 {
                     "question": "What is a noun?",
                     "answers": [
@@ -892,9 +898,10 @@
             ]
         },
         {
-            "quizTtile": "Social Studies Grade 3 contintents",
+            "quizTitle": "Social Studies Grade 3 contintents",
             "gradeLevel": "3",
-            "quizQuestions": [
+            "quizAuthor": "StudyHelperAdmin", 
+            "questions": [
                 {
                     "question": "What is a continent?",
                     "answers": [
