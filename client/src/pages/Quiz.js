@@ -1,5 +1,6 @@
 
-
+const Quiz = () => {
+    return (
 <body>
     <div class="container">
 
@@ -54,4 +55,5 @@
 
     <script src="./js/script.js"></script>
 </body>
-
+    )};
+export default Quiz;
