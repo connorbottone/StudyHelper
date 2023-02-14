@@ -19,18 +19,18 @@ const userSchema = new Schema({
     required: true,
     minlength: 5,
   },
-  role: {
-    type: String,
-    required: true,
-    enum: ['user','teacher', 'admin'],
-    default: 'user',
-  },
-  scores: [
-    {
-      type: Schema.Types.ObjectId,
-      ref: 'Score',
-    },
-  ],
+  // role: {
+  //   type: String,
+  //   required: true,
+  //   enum: ['user','teacher', 'admin'],
+  //   default: 'user',
+  // },
+  // scores: [
+  //   {
+  //     type: Schema.Types.ObjectId,
+  //     ref: 'Score',
+  //   },
+  // ],
 });
 
 userSchema.pre('save', async function (next) {

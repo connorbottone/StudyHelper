@@ -1,25 +1,25 @@
 const { AuthenticationError } = require('apollo-server-express');
-const { User, Thought } = require('../models');
+const { User, Quiz } = require('../models');
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
   Query: {
     users: async () => {
-      return User.find().populate('thoughts');
+      return User.find().populate('Quiz');
     },
     user: async (parent, { username }) => {
-      return User.findOne({ username }).populate('thoughts');
+      return User.findOne({ username }).populate('Quiz');
     },
-    thoughts: async (parent, { username }) => {
-      const params = username ? { username } : {};
-      return Thought.find(params).sort({ createdAt: -1 });
+    quizs: async (parent, { gradeLevel }) => {
+      const params = gradeLevel ? { gradeLevel } : {};
+      return Quiz.find(params)
     },
-    thought: async (parent, { thoughtId }) => {
-      return Thought.findOne({ _id: thoughtId });
+    quiz: async (parent, { quizId }) => {
+      return Quiz.findOne({ _id: quizId });
     },
     me: async (parent, args, context) => {
       if (context.user) {
-        return User.findOne({ _id: context.user._id }).populate('thoughts');
+        return User.findOne({ _id: context.user._id }).populate('quizs');
       }
       throw new AuthenticationError('You need to be logged in!');
     },
@@ -48,29 +48,30 @@ const resolvers = {
 
       return { token, user };
     },
-    addThought: async (parent, { thoughtText }, context) => {
+    addQuiz: async (parent, { quizTitle, gradeLevel }, context) => {
       if (context.user) {
-        const thought = await Thought.create({
-          thoughtText,
-          thoughtAuthor: context.user.username,
+        const quiz = await Quiz.create({
+          quizTitle,
+          gradeLevel,
+          quizAuthor: context.user.username,
         });
 
         await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $addToSet: { thoughts: thought._id } }
+          { $addToSet: { quiz: quiz._id } }
         );
 
-        return thought;
+        return quiz;
       }
       throw new AuthenticationError('You need to be logged in!');
     },
-    addComment: async (parent, { thoughtId, commentText }, context) => {
+    addQuestion: async (parent, { quizId, questionText }, context) => {
       if (context.user) {
-        return Thought.findOneAndUpdate(
-          { _id: thoughtId },
+        return Quiz.findOneAndUpdate(
+          { _id: quizId },
           {
             $addToSet: {
-              comments: { commentText, commentAuthor: context.user.username },
+              questions: { questionText },
             },
           },
           {
@@ -81,36 +82,36 @@ const resolvers = {
       }
       throw new AuthenticationError('You need to be logged in!');
     },
-    removeThought: async (parent, { thoughtId }, context) => {
+    addAnswer: async (parent, { quizId, questionId, answerText, correct }, context) => {
       if (context.user) {
-        const thought = await Thought.findOneAndDelete({
-          _id: thoughtId,
-          thoughtAuthor: context.user.username,
+        return Quiz.findOneAndUpdate(
+          { _id: quizId, questions: { $elemMatch: { _id: questionId } } },
+          {
+            $addToSet: {
+              'questions.$.answers': { answerText, correct },
+            },
+          },
+          {
+            new: true,
+            runValidators: true,
+          }
+        );
+      }
+      throw new AuthenticationError('You need to be logged in!');
+    },
+    removeQuiz: async (parent, { quizId }, context) => {
+      if (context.user) {
+        const quiz = await Quiz.findOneAndDelete({
+          _id: quizId,
+          quizAuthor: context.user.username,
         });
 
         await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $pull: { thoughts: thought._id } }
+          { $pull: { quizs: quiz._id } }
         );
 
-        return thought;
-      }
-      throw new AuthenticationError('You need to be logged in!');
-    },
-    removeComment: async (parent, { thoughtId, commentId }, context) => {
-      if (context.user) {
-        return Thought.findOneAndUpdate(
-          { _id: thoughtId },
-          {
-            $pull: {
-              comments: {
-                _id: commentId,
-                commentAuthor: context.user.username,
-              },
-            },
-          },
-          { new: true }
-        );
+        return quiz;
       }
       throw new AuthenticationError('You need to be logged in!');
     },
