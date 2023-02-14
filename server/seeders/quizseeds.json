@@ -334,7 +334,338 @@
                 }
             ]
         },
-        
-
+        {
+            "quizTtile": "Math Grade 2 ",
+            "gradeLevel": "2",
+            "quizQuestions": [
+                {
+                    "question": "If i have 12 apples and i give 2 apples to my friend, how many apples do i have left?",
+                    "answers": [
+                        {
+                            "answer": "10",
+                            "correct": true
+                        },
+                        {
+                            "answer": "14",
+                            "correct": false
+                        },
+                        {
+                            "answer": "20",
+                            "correct": false
+                        },
+                        {
+                            "answer": "24",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Mary has 5 toy cars. She gives 2 to her brother. How many toy cars does Mary have left?",
+                    "answers": [
+                        {
+                            "answer": "5",
+                            "correct": false
+                        },
+                        {
+                            "answer": "4",
+                            "correct": false
+                        },
+                        {
+                            "answer": "3",
+                            "correct": true
+                        },
+                        {
+                            "answer": "7",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "If a pack of stickers has 12 stickers and Sally has 3 packs of stickers, how many stickers does Sally have in total?",
+                    "answers": [
+                        {
+                            "answer": "9",
+                            "correct": false
+                        },
+                        {
+                            "answer": "15",
+                            "correct": false
+                        },
+                        {
+                            "answer": "24",
+                            "correct": false
+                        },
+                        {
+                            "answer": "36",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "A box of crayons has 24 crayons. If 8 crayons are taken out of the box, how many crayons are left in the box?",
+                    "answers": [
+                        {
+                            "answer": "7",
+                            "correct": false
+                        },
+                        {
+                            "answer": "18",
+                            "correct": false
+                        },
+                        {
+                            "answer": "32",
+                            "correct": false
+                        },
+                        {
+                            "answer": "16",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "There are 7 birds on a wire. 3 more birds land on the wire. How many birds are on the wire now?",
+                    "answers": [
+                        {
+                            "answer": "9",
+                            "correct": false
+                        },
+                        {
+                            "answer": "0",
+                            "correct": false
+                        },
+                        {
+                            "answer": "5",
+                            "correct": false
+                        },
+                        {
+                            "answer": "10",
+                            "correct": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "quizTtile": "English Grade 2 ",
+            "gradeLevel": "2",
+            "quizQuestions": [
+                {
+                    "question": "Jhon : _______ is your favorite color? Mary : My favorite color is red.",
+                    "answers": [
+                        {
+                            "answer": "What",
+                            "correct": true
+                        },
+                        {
+                            "answer": "Why",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Where",
+                            "correct": false
+                        },
+                        {
+                            "answer": "When",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "How many syllabels are in the sentence 'I have a Cat'?",
+                    "answers": [
+                        {
+                            "answer": "5",
+                            "correct": false
+                        },
+                        {
+                            "answer": "3",
+                            "correct": false
+                        },
+                        {
+                            "answer": "4",
+                            "correct": true
+                        },
+                        {
+                            "answer": "7",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Teacher: _______ are you late? Student: I am sorry, I was playing with my dog.",
+                    "answers": [
+                        {
+                            "answer": "Where",
+                            "correct": false
+                        },
+                        {
+                            "answer": "What",
+                            "correct": false
+                        },
+                        {
+                            "answer": "When",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Why",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "Watchout that stick is sharp ______ a knife!!",
+                    "answers": [
+                        {
+                            "answer": "Or",
+                            "correct": false
+                        },
+                        {
+                            "answer": "But",
+                            "correct": false
+                        },
+                        {
+                            "answer": "So",
+                            "correct": false
+                        },
+                        {
+                            "answer": "As",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "I ____ an Eagle yesterday.",
+                    "answers": [
+                        {
+                            "answer": "Seed",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Seeing",
+                            "correct": false
+                        },
+                        {
+                            "answer": "See",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Saw",
+                            "correct": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "quizTtile": "Social Studies Grade 2 Geography ",
+            "gradeLevel": "2",
+            "quizQuestions": [
+                {
+                    "question": "Where in the world is the statue of liberty?",
+                    "answers": [
+                        {
+                            "answer": "United States",
+                            "correct": true
+                        },
+                        {
+                            "answer": "Canada",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Mexico",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Brazil",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Where in the world can you visit the Great Wall of China?",
+                    "answers": [
+                        {
+                            "answer": "Russia",
+                            "correct": false
+                        },
+                        {
+                            "answer": "England",
+                            "correct": false
+                        },
+                        {
+                            "answer": "China",
+                            "correct": true
+                        },
+                        {
+                            "answer": "Japan",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Where in the world can you visit the Pryamids?",
+                    "answers": [
+                        {
+                            "answer": "France",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Italy",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Greece",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Egypt",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "Where in the world can you visit the Eiffel Tower?",
+                    "answers": [
+                        {
+                            "answer": "Cuba",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Brazil",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Italy",
+                            "correct": false
+                        },
+                        {
+                            "answer": "France",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "Where would you go to visit the Amazon rainforest?",
+                    "answers": [
+                        {
+                            "answer": "China",
+                            "correct": false
+                        },
+                        {
+                            "answer": "England",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Egypt",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Brazil",
+                            "correct": true
+                        }
+                    ]
+                }
+            ]
+        },
 
 ]
