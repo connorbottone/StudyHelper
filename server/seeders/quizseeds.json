@@ -2,6 +2,7 @@
 {
     "quizTtile": "Math Grade 1 Addition",
     "gradeLevel": "1",
+    "quizAuthor": "StudyHelperAdmin",  
     "quizQuestions": [
         {
             "question": "What is 10+10?",
@@ -113,6 +114,7 @@
 {
     "quizTtile": "English Grade 1 ",
     "gradeLevel": "1",
+    "quizAuthor": "StudyHelperAdmin", 
     "quizQuestions": [
         {
             "question": "Do you _____ two pencils?",
@@ -226,6 +228,7 @@
         {
             "quizTtile": "Social Studies Grade 1 ",
             "gradeLevel": "1",
+            "quizAuthor": "StudyHelperAdmin", 
             "quizQuestions": [
                 {
                     "question": "Who was the first president of the United States?",
@@ -337,6 +340,7 @@
         {
             "quizTtile": "Math Grade 2 ",
             "gradeLevel": "2",
+            "quizAuthor": "StudyHelperAdmin", 
             "quizQuestions": [
                 {
                     "question": "If i have 12 apples and i give 2 apples to my friend, how many apples do i have left?",
@@ -448,6 +452,7 @@
         {
             "quizTtile": "English Grade 2 ",
             "gradeLevel": "2",
+            "quizAuthor": "StudyHelperAdmin", 
             "quizQuestions": [
                 {
                     "question": "Jhon : _______ is your favorite color? Mary : My favorite color is red.",
@@ -559,6 +564,7 @@
         {
             "quizTtile": "Social Studies Grade 2 Geography ",
             "gradeLevel": "2",
+            "quizAuthor": "StudyHelperAdmin", 
             "quizQuestions": [
                 {
                     "question": "Where in the world is the statue of liberty?",
@@ -670,6 +676,7 @@
         {
             "quizTtile": "Math Grade 3",
             "gradeLevel": "3",
+            "quizAuthor": "StudyHelperAdmin", 
             "quizQuestions": [
                 {
                     "question": "If a bike has 2 wheels and a tricycle has 3 wheels, how many wheels do 4 tricycles have",
@@ -781,6 +788,7 @@
         {
             "quizTtile": "English Grade 3",
             "gradeLevel": "3",
+            "quizAuthor": "StudyHelperAdmin", 
             "quizQuestions": [
                 {
                     "question": "What is a noun?",
@@ -892,6 +900,7 @@
         {
             "quizTtile": "Social Studies Grade 3 contintents",
             "gradeLevel": "3",
+            "quizAuthor": "StudyHelperAdmin", 
             "quizQuestions": [
                 {
                     "question": "What is a continent?",
