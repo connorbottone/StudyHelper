@@ -24,33 +24,62 @@ export const ADD_USER = gql`
   }
 `;
 
-export const ADD_THOUGHT = gql`
-  mutation addThought($thoughtText: String!) {
-    addThought(thoughtText: $thoughtText) {
+export const ADD_QUIZ = gql`
+  mutation addQuiz($quizTitle: String!, $gradeLevel: Int!) {
+    addQuiz(quizTitle: $quizTitle) {
       _id
-      thoughtText
-      thoughtAuthor
+      quizTitle
+      quizAuthor
       createdAt
-      comments {
+    }
+  }
+`;
+
+export const ADD_QUESTION = gql`
+  mutation addQuestion($quizId: ID!, $questionText: String!) {
+    addQuestion(quizId: $quizId, question: $question) {
+      _id
+      quizTitle
+      quizAuthor
+      createdAt
+      questions {
         _id
-        commentText
+        question
+        createdAt
       }
     }
   }
 `;
 
-export const ADD_COMMENT = gql`
-  mutation addComment($thoughtId: ID!, $commentText: String!) {
-    addComment(thoughtId: $thoughtId, commentText: $commentText) {
+export const ADD_ANSWER = gql`
+  mutation addAnswer($questionId: ID!, $answer: String!, $correct: Boolean!) {
+    addAnswer(questionId: $questionId, answer: $answer, correct: $correct) {
       _id
-      thoughtText
-      thoughtAuthor
+      quizTitle
+      quizAuthor
       createdAt
-      comments {
+      questions {
         _id
-        commentText
+        question
         createdAt
+        answers {
+          _id
+          answer
+          correct
+          createdAt
+        }
       }
+    }
+  }
+`;
+
+export const REMOVE_QUIZ = gql`
+  mutation removeQuiz($quizId: ID!) {
+    removeQuiz(quizId: $quizId) {
+      _id
+      quizTitle
+      quizAuthor
+      createdAt
     }
   }
 `;

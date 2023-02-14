@@ -11,6 +11,7 @@ const typeDefs = gql`
   type Quiz {
     _id: ID
     quizTitle: String
+    gradeLevel: Int
     quizAuthor: String
     questions: [Question]
     answers: [Answer]
@@ -19,14 +20,14 @@ const typeDefs = gql`
 
   type Question {
     _id: ID
-    questionText: String
+    question: String
     answers: [Answer]
     createdAt: String
   }
 
   type Answer {
     _id: ID
-    answerText: String
+    answer: String
     correct: Boolean
     createdAt: String
   }
@@ -49,8 +50,8 @@ const typeDefs = gql`
     login(email: String!, password: String!): Auth
     removeQuiz(quizId: ID!): Quiz
     addQuiz(quizTitle: String!, gradeLevel: Int!): Quiz
-    addQuestion(quizId: ID!, questionText: String!): Quiz
-    addAnswer(questionId: ID!, answerText: String!, correct: Boolean!): Quiz
+    addQuestion(quizId: ID!, question: String!): Quiz
+    addAnswer(questionId: ID!, answer: String!, correct: Boolean!): Quiz
   }
 `;
 
