@@ -25,7 +25,7 @@ const Header = ({ currentPage, setCurrentPage, isLoggedIn,setIsLoggedIn}) => {
                         handleLogout();
                       }
                       else if (page === "SignupLogin") {
-                        setIsLoggedIn(true); //this needs to be implementd into the sign up form here to test it
+                        setIsLoggedIn(true); 
                       } else {
                         setCurrentPage(page);
                       }
