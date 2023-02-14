@@ -1,6 +1,6 @@
 import { useQuery } from '@apollo/client';
 import { QUERY_QUIZS } from '../utils/queries';
-
+import { Link } from 'react-router-dom';
 const Grade1 = () => {
   const { loading, data } = useQuery(QUERY_QUIZS, {
     variables: { gradeLevel: 1 },
@@ -21,6 +21,10 @@ const Grade1 = () => {
           <div className="card-body">
             <h5 className="card-title">{quiz.quizTitle}</h5>
             <p className="card-text">Blah blah blah about us and the quizes</p>
+            <Link className="btn btn-lg btn-info m-2" to={`/Quiz/${quiz._id}`}>
+                Begin Quiz
+              </Link>
+            
           </div>
         </div>
       ))}
