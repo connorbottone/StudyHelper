@@ -1,6 +1,7 @@
-import '../../public/js/quiz';
-import '../../public/css/style.css';
-
+// import '../js/quiz';
+import '../css/style.css';
+const Quiz = () => {
+    return (
 <body>
     <div class="container">
 
