@@ -667,5 +667,339 @@
                 }
             ]
         },
+        {
+            "quizTtile": "Math Grade 3",
+            "gradeLevel": "3",
+            "quizQuestions": [
+                {
+                    "question": "If a bike has 2 wheels and a tricycle has 3 wheels, how many wheels do 4 tricycles have",
+                    "answers": [
+                        {
+                            "answer": "12",
+                            "correct": true
+                        },
+                        {
+                            "answer": "5",
+                            "correct": false
+                        },
+                        {
+                            "answer": "9",
+                            "correct": false
+                        },
+                        {
+                            "answer": "8",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "There are 7 students in a class. Each student has 6 pencils. How many pencils are there in total?",
+                    "answers": [
+                        {
+                            "answer": "50",
+                            "correct": false
+                        },
+                        {
+                            "answer": "32",
+                            "correct": false
+                        },
+                        {
+                            "answer": "42",
+                            "correct": true
+                        },
+                        {
+                            "answer": "74",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "A pizza is cut into 8 slices. If 3 people each have 2 slices, how many slices are left?",
+                    "answers": [
+                        {
+                            "answer": "1",
+                            "correct": false
+                        },
+                        {
+                            "answer": "8",
+                            "correct": false
+                        },
+                        {
+                            "answer": "4",
+                            "correct": false
+                        },
+                        {
+                            "answer": "2",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "If a rectangle has a length of 6 units and a width of 4 units, what is the area of the rectangle?(Hint: Area = length x width)",
+                    "answers": [
+                        {
+                            "answer": "12",
+                            "correct": false
+                        },
+                        {
+                            "answer": "44",
+                            "correct": false
+                        },
+                        {
+                            "answer": "30",
+                            "correct": false
+                        },
+                        {
+                            "answer": "24",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "If a box contains 12 packs of gum and each pack has 5 pieces of gum, how many pieces of gum are in the box?",
+                    "answers": [
+                        {
+                            "answer": "27",
+                            "correct": false
+                        },
+                        {
+                            "answer": "65",
+                            "correct": false
+                        },
+                        {
+                            "answer": "17",
+                            "correct": false
+                        },
+                        {
+                            "answer": "60",
+                            "correct": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "quizTtile": "English Grade 3",
+            "gradeLevel": "3",
+            "quizQuestions": [
+                {
+                    "question": "What is a noun?",
+                    "answers": [
+                        {
+                            "answer": " A word that names a person, place, thing, or idea.",
+                            "correct": true
+                        },
+                        {
+                            "answer": "A word that shows action",
+                            "correct": false
+                        },
+                        {
+                            "answer": " A word that describes a verb",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that is used to join two clauses.",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "What is a verb?",
+                    "answers": [
+                        {
+                            "answer": "A word that is used to ask a question,",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that describes a noun",
+                            "correct": false
+                        },
+                        {
+                            "answer": "a word that shows action or state of being",
+                            "correct": true
+                        },
+                        {
+                            "answer": " A word that names a person, place, thing, or idea.",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "What is an adjective?",
+                    "answers": [
+                        {
+                            "answer": "A word that shows possession.",
+                            "correct": false
+                        },
+                        {
+                            "answer": " A word that connects two nouns,",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that shows action",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that describes a noun or pronoun.",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "What is a homophone",
+                    "answers": [
+                        {
+                            "answer": "a word that is pronounced differently from another word.",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A homophone is a word that is spelled the same as another word",
+                            "correct": false
+                        },
+                        {
+                            "answer": "a word that means the same as another word",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that sounds the same as another word but has a different meaning and spelling.",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "What is a synonym?",
+                    "answers": [
+                        {
+                            "answer": " A word that rhymes with another word.",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that has only one syllable",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that has a different meaning from another word",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A word that has the same or similar meaning as another ",
+                            "correct": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "quizTtile": "Social Studies Grade 3 contintents",
+            "gradeLevel": "3",
+            "quizQuestions": [
+                {
+                    "question": "What is a continent?",
+                    "answers": [
+                        {
+                            "answer": " A large landmass on Earth.",
+                            "correct": true
+                        },
+                        {
+                            "answer": "A type of animal",
+                            "correct": false
+                        },
+                        {
+                            "answer": " A large body of water",
+                            "correct": false
+                        },
+                        {
+                            "answer": "A type of weather pattern.",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "How many Continents are there?",
+                    "answers": [
+                        {
+                            "answer": "5",
+                            "correct": false
+                        },
+                        {
+                            "answer": "6",
+                            "correct": false
+                        },
+                        {
+                            "answer": "7",
+                            "correct": true
+                        },
+                        {
+                            "answer": " 8",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "What is the largets continent?",
+                    "answers": [
+                        {
+                            "answer": "North America.",
+                            "correct": false
+                        },
+                        {
+                            "answer": " South America",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Europe",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Asia.",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "Whice one of these is not a continent?",
+                    "answers": [
+                        {
+                            "answer": "Africa",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Australia",
+                            "correct": false
+                        },
+                        {
+                            "answer": "Antarctica",
+                            "correct": false
+                        },
+                        {
+                            "answer": "China",
+                            "correct": true
+                        }
+                    ]
+                },
+                {
+                    "question": "How many Oceans are there",
+                    "answers": [
+                        {
+                            "answer": " 10",
+                            "correct": false
+                        },
+                        {
+                            "answer": "3",
+                            "correct": false
+                        },
+                        {
+                            "answer": "7",
+                            "correct": false
+                        },
+                        {
+                            "answer": "5 ",
+                            "correct": true
+                        }
+                    ]
+                }
+            ]
+        }
+        
 
 ]
