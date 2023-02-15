@@ -42,6 +42,7 @@ const typeDefs = gql`
     user(username: String!): User
     me: User
     quizs(gradeLevel: Int!): [Quiz]
+    quizsbytitle(quizTitle: String!): [Quiz]
     quiz(quizId: ID!): Quiz
   }
 

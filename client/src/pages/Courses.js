@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Auth from '../utils/auth';
+import QuizSearch from "../components/searchbar.js";
 const Courses = () => {
     
   
@@ -8,6 +9,7 @@ const Courses = () => {
         {Auth.loggedIn() ? (
             <>
     <div>
+    <QuizSearch />
       <div class="card text-center  border border-primary mt-4">
       <div class="card-header">
           Grade 1 
