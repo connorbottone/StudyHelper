@@ -16,7 +16,7 @@ const Footer = () => {
           </button>
         )}
         <h4>
-          Made with{' '}
+          We {' '}
           <span
             className="emoji"
             role="img"
@@ -25,7 +25,7 @@ const Footer = () => {
           >
             ❤️
           </span>{' '}
-          by Connor.Bottone Bryan.Davie David.Yu Andre.Silva
+         Learning! Created by Connor.Bottone Bryan.Davie David.Yu Andre.Silva
         </h4>
       </div>
     </footer>
