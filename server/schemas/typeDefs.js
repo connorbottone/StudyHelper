@@ -13,7 +13,6 @@ const typeDefs = gql`
     quizTitle: String
     gradeLevel: Int
     quizAuthor: String
-    gradeLevel: Int
     questions: [Question]
     answers: [Answer]
     createdAt: String
