@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useQuery } from '@apollo/client';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { QUERY_QUIZ } from '../utils/queries';
 
 const Quiz = () => {
@@ -24,6 +24,7 @@ const Quiz = () => {
 
     if (isCorrect) {
       setScore(score + 1);
+     
     }
 
     setSelectedAnswer(null);
@@ -56,14 +57,19 @@ const Quiz = () => {
           <ul>
             {questions[currentQuestion].answers.map((answer, index) => (
               <li key={index}>
-                <button onClick={() => handleAnswerButtonClick(answer)}>
+                <button className="btn btn-lg btn-light m-2" onClick={() => handleAnswerButtonClick(answer)}>
                   {answer.answer}
                 </button>
               </li>
+              
             ))}
+            <Link className="ml-1 m-4" to="/Contact">Click to Report Issue</Link>
           </ul>
           {selectedAnswer && (
-            <button onClick={handleNextButtonClick}>Next</button>
+            
+            <button className="btn btn-lg btn-dark m-2" onClick={handleNextButtonClick}>Next</button>
+            
+            
           )}
         </div>
       )}
