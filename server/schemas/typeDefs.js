@@ -13,7 +13,6 @@ const typeDefs = gql`
     quizTitle: String
     gradeLevel: Int
     quizAuthor: String
-    gradeLevel: Int
     questions: [Question]
     answers: [Answer]
     createdAt: String
@@ -43,6 +42,7 @@ const typeDefs = gql`
     user(username: String!): User
     me: User
     quizs(gradeLevel: Int!): [Quiz]
+    quizsbytitle(quizTitle: String!): [Quiz]
     quiz(quizId: ID!): Quiz
   }
 

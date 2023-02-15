@@ -14,6 +14,10 @@ const resolvers = {
       const params = gradeLevel ? { gradeLevel } : {};
       return Quiz.find(params)
     },
+    quizsbytitle: async (parent, { quizTitle }) => {
+      const params = quizTitle ? { quizTitle } : {};
+      return Quiz.find(params)
+    },
     quiz: async (parent, { quizId }) => {
       return Quiz.findOne({ _id: quizId });
     },

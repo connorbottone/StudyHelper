@@ -13,10 +13,10 @@ const Header = () => {
     <header className="bg-primary text-light mb-4 py-3 flex-row align-center">
       <div className="container flex-row justify-space-between-lg justify-center align-center">
         <div>
-          <Link className="text-light" to="/">
+          <Link  to="/">
             <h1 className="m-0">Study Helper</h1>
           </Link>
-          <p className="m-0">Learning made fun.</p>
+          <p className="m-0 text-dark">Learning made fun.</p>
         </div>
         <div>
           {Auth.loggedIn() ? (

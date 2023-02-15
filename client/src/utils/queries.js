@@ -38,6 +38,16 @@ query Quiz($quizId: ID!) {
   }
 }
 `;
+export const QUERY_QUIZSBYTITLE = gql`
+query Quizsbytitle($quizTitle: String!) {
+  quizsbytitle(quizTitle: $quizTitle) {
+    gradeLevel
+    quizAuthor
+    quizTitle
+    _id
+  }
+}
+`;
 
 
 
