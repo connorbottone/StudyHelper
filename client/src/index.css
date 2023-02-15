@@ -920,7 +920,7 @@ a:hover {
 
 /* BACKGROUND UTILS */
 .bg-primary {
-  background-color: #2d3e50 !important;
+  background-color: #ecf1b2 !important;
 }
 
 .bg-info {
@@ -1090,15 +1090,21 @@ a:hover {
 }
 #homepageimg1{
   width: 100%;
-  height: 100%;
+  height: 400px;
   object-fit: cover;
   object-position: center;
 }
-
+#homepageimg2{
+  width: 100%;
+  height: 400px;
+ 
+  
+}
 .card .card-header {
-  padding: 0.475rem;
+  padding: 0.575rem;
   background-color: #2d3e50;
   color: #d9e9e8;
+  width: 550px;
 }
 
 .card .card-body {
