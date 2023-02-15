@@ -42,6 +42,10 @@ const Home = () => {
           <p>
             📝Simply follow the steps to create your quiz!
           </p>
+          <p>Students can Search for Quiz by name <Link  to="/Courses">
+              Here
+            </Link>
+             </p>
           <div className="mt-auto">
           <img  id="homepageimg2"src={create} alt="Pencil on paper" className="profile-pic" /> 
             <Link className="btn btn-lg btn-info m-2" to="/CreateQuiz">
