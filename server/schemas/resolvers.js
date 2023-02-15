@@ -48,57 +48,54 @@ const resolvers = {
 
       return { token, user };
     },
-    addQuiz: async (parent, { quizTitle, gradeLevel }, context) => {
+    addQuiz: async (parent, { quizTitle, gradeLevel, questions, answers }, context) => {
       if (context.user) {
         const quiz = await Quiz.create({
           quizTitle,
           gradeLevel,
           quizAuthor: context.user.username,
+          questions,
+          answers,
         });
-
-        await User.findOneAndUpdate(
-          { _id: context.user._id },
-          { $addToSet: { quiz: quiz._id } }
-        );
 
         return quiz;
       }
       throw new AuthenticationError('You need to be logged in!');
     },
-    addQuestion: async (parent, { quizId, questionText }, context) => {
-      if (context.user) {
-        return Quiz.findOneAndUpdate(
-          { _id: quizId },
-          {
-            $addToSet: {
-              questions: { questionText },
-            },
-          },
-          {
-            new: true,
-            runValidators: true,
-          }
-        );
-      }
-      throw new AuthenticationError('You need to be logged in!');
-    },
-    addAnswer: async (parent, { quizId, questionId, answerText, correct }, context) => {
-      if (context.user) {
-        return Quiz.findOneAndUpdate(
-          { _id: quizId, questions: { $elemMatch: { _id: questionId } } },
-          {
-            $addToSet: {
-              'questions.$.answers': { answerText, correct },
-            },
-          },
-          {
-            new: true,
-            runValidators: true,
-          }
-        );
-      }
-      throw new AuthenticationError('You need to be logged in!');
-    },
+    // addQuestion: async (parent, { quizId, questionText }, context) => {
+    //   if (context.user) {
+    //     return Quiz.findOneAndUpdate(
+    //       { _id: quizId },
+    //       {
+    //         $addToSet: {
+    //           questions: { questionText },
+    //         },
+    //       },
+    //       {
+    //         new: true,
+    //         runValidators: true,
+    //       }
+    //     );
+    //   }
+    //   throw new AuthenticationError('You need to be logged in!');
+    // },
+    // addAnswer: async (parent, { quizId, questionId, answerText, correct }, context) => {
+    //   if (context.user) {
+    //     return Quiz.findOneAndUpdate(
+    //       { _id: quizId, questions: { $elemMatch: { _id: questionId } } },
+    //       {
+    //         $addToSet: {
+    //           'questions.$.answers': { answerText, correct },
+    //         },
+    //       },
+    //       {
+    //         new: true,
+    //         runValidators: true,
+    //       }
+    //     );
+    //   }
+    //   throw new AuthenticationError('You need to be logged in!');
+    // },
     removeQuiz: async (parent, { quizId }, context) => {
       if (context.user) {
         const quiz = await Quiz.findOneAndDelete({
