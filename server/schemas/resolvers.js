@@ -14,10 +14,6 @@ const resolvers = {
       const params = gradeLevel ? { gradeLevel } : {};
       return Quiz.find(params)
     },
-    quizsbytitle: async (parent, { quizTitle }) => {
-      const params = quizTitle ? { quizTitle } : {};
-      return Quiz.find(params)
-    },
     quiz: async (parent, { quizId }) => {
       return Quiz.findOne({ _id: quizId });
     },
@@ -52,19 +48,18 @@ const resolvers = {
 
       return { token, user };
     },
-    addQuiz: async (parent, { quizTitle, gradeLevel, questions, answers }, context) => {
-      if (context.user) {
+    addQuiz: async (parent, { quizTitle, gradeLevel, questions}, context) => {
+      // if (context.user) {
         const quiz = await Quiz.create({
           quizTitle,
           gradeLevel,
-          quizAuthor: context.user.username,
+          quizAuthor: 'context.user.username',
           questions,
-          answers,
         });
 
         return quiz;
-      }
-      throw new AuthenticationError('You need to be logged in!');
+      // }
+      // throw new AuthenticationError('You need to be logged in!');
     },
     // addQuestion: async (parent, { quizId, questionText }, context) => {
     //   if (context.user) {
