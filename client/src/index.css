@@ -1100,11 +1100,56 @@ a:hover {
  
   
 }
+.cards{border: 1px solid #1a1a1a;
+  margin-bottom: 1rem;
+  width: 900px;
+  justify-content: center;
+  margin-left: 140px;
+
+}
+.cards .card-header {
+  padding: 0.575rem;
+  background-color: #2307c2;
+  color: #d9e9e8;
+  width: 900px;
+}
+.cards .courses-card-header{
+  padding: 0.575rem;
+  background-color: #2307c2;
+  color: #d9e9e8;
+  width: 1020px;
+}
+
+.cards .card-body {
+  padding: 0.375rem;
+  height: 90%;
+  margin-top: 14px;
+}
+
+.cards .card-footer {
+  border-top: 1px solid #1a1a1a;
+  padding: .375rem;
+}
+
+.cards.card-rounded {
+  border-radius: 0.5rem;
+}
+
+.cards.card-rounded .card-header {
+  border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+}
+
 .card .card-header {
   padding: 0.575rem;
   background-color: #2d3e50;
   color: #d9e9e8;
   width: 550px;
+}
+.card .courses-card-header{
+  padding: 0.575rem;
+  background-color: #2307c2;
+  color: #d9e9e8;
+  width: 1020px;
 }
 
 .card .card-body {
