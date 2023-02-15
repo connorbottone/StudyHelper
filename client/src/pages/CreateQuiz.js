@@ -1,9 +1,10 @@
-
+import Auth from '../utils/auth';
 
 import React, { useState } from "react";
 import { useMutation } from "@apollo/client";
 import { ADD_QUIZ } from '../utils/mutations';
 const CreateQuiz = ()=> {
+  
     const [quizTitle, setQuizTitle] = useState("");
     const [gradeLevel, setGradeLevel] = useState(0);
     const [questions, setQuestions] = useState([{ question: "", answers: [{ answer: "", correct: false }] }]);
@@ -54,6 +55,10 @@ const CreateQuiz = ()=> {
     if (data) return <p>Quiz created successfully!</p>;
   
     return (
+      <div className="sd">
+        {Auth.loggedIn() ? (
+            <>
+      
        <div> <p> Begin by giving your Quiz a title</p>
        <p>Next select your intended grade level</p>
        <p>Now you can Begin adding your Questions</p>
@@ -120,9 +125,16 @@ const CreateQuiz = ()=> {
 
       <button type="submit">Create Quiz</button>
     </form></div>
-  );
+      </>
+      ) : (
+          <div>
+<h1>Sigup/Login to Create and Share your quiz today</h1>
+          </div>
+  )
 }
-
+</div>
+    );
+  };
 
 
 export default CreateQuiz;

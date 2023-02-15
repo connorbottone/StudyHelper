@@ -7,22 +7,12 @@ db.once('open', async () => {
   try {
     await Quiz.deleteMany({});
     await User.deleteMany({});
-    await Quiz.deleteMany({});
+   
 
 await Quiz.create(quizSeeds);
     await User.create(userSeeds);
-    await Quiz.create(quizSeeds);
-    // for (let i = 0; i < quizSeeds.length; i++) {
-    //   const { _id, quizAuthor } = await Quiz.create(quizSeeds[i]);
-    //   const user = await User.findOneAndUpdate(
-    //     { username: quizAuthor },
-    //     {
-    //       $addToSet: {
-    //         quiz: _id,
-    //       },
-    //     }
-    //   );
-    // }
+   
+
   } catch (err) {
     console.error(err);
     process.exit(1);
