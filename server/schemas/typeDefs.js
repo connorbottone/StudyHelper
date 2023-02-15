@@ -11,6 +11,7 @@ const typeDefs = gql`
   type Quiz {
     _id: ID
     quizTitle: String
+    gradeLevel: Int
     quizAuthor: String
     gradeLevel: Int
     questions: [Question]
@@ -50,9 +51,13 @@ const typeDefs = gql`
     login(email: String!, password: String!): Auth
     removeQuiz(quizId: ID!): Quiz
     addQuiz(quizTitle: String!, gradeLevel: Int!): Quiz
-    addQuestion(quizId: ID!, question: String!): Quiz
-    addAnswer(questionId: ID!, answer: String!, correct: Boolean!): Quiz
+    addQuestion(quizId: ID!, questionText: String!): Quiz
+    addAnswer(questionId: ID!, answerText: String!, correct: Boolean!): Quiz
   }
 `;
 
 module.exports = typeDefs;
+
+// addQuiz(quizTitle: String!, gradeLevel: Int!): Quiz
+// addQuestion(quizId: ID!, question: String!): Quiz
+// addAnswer(questionId: ID!, answer: String!, correct: Boolean!): Quiz
