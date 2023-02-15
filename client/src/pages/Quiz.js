@@ -1,52 +1,80 @@
-// import '../js/quiz';
-import '../css/style.css';
+import { useState } from 'react';
+import { useQuery } from '@apollo/client';
+import { Link, useParams } from 'react-router-dom';
+import { QUERY_QUIZ } from '../utils/queries';
+
 const Quiz = () => {
-    return (
-<body>
-    <div class="container">
+  const { quizId } = useParams();
 
-        <div id="display-page">
-            <header id="header">
-                <h1 class="h1">Coding Quiz!</h1>
-                <p id="timer"></p>
-            </header>
+  const { loading, data } = useQuery(QUERY_QUIZ, {
+    variables: { quizId },
+  });
 
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [score, setScore] = useState(0);
+  const [showScore, setShowScore] = useState(false);
 
-            <div id="show">
-                <h2>Coding Quiz Challenge</h2>
-                <p>Try to answer the following code-related questions within the time limit. Keep in Mind that incorrect
-                    answers will penalize your score/time by ten seconds!</p>
-                <button class="startBtn" id="start-button">Start</button>
-            </div>
+  const handleAnswerButtonClick = (answer) => {
+    setSelectedAnswer(answer);
+  };
+
+  const handleNextButtonClick = () => {
+    const isCorrect = selectedAnswer === data.quiz.questions[currentQuestion].answers.find(a => a.correct);
+
+    if (isCorrect) {
+      setScore(score + 1);
+     
+    }
+
+    setSelectedAnswer(null);
+
+    if (currentQuestion === data.quiz.questions.length - 1) {
+      setShowScore(true);
+    } else {
+      setCurrentQuestion(currentQuestion + 1);
+    }
+  };
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  const { quizTitle, questions } = data.quiz;
+
+  return (
+    <div>
+      <h1>{quizTitle}</h1>
+
+      {showScore ? (
+        <div>
+          <h2>Your score is: {score} out of {questions.length}</h2>
         </div>
-
-        <div id="quiz" class="hide">
-            <div id="questions">
-                <p id = 'question'></p>
-                <div id="options"></div>
-            </div>
-        </div>
-        <div id="selection" class="hide">
+      ) : (
+        <div>
+          <h2>Question {currentQuestion + 1}</h2>
+          <p>{questions[currentQuestion].question}</p>
+          <ul>
+            {questions[currentQuestion].answers.map((answer, index) => (
+              <li key={index}>
+                <button className="btn btn-lg btn-light m-2" onClick={() => handleAnswerButtonClick(answer)}>
+                  {answer.answer}
+                </button>
+              </li>
+              
+            ))}
+            <Link className="ml-1 m-4" to="/Contact">Click to Report Issue</Link>
+          </ul>
+          {selectedAnswer && (
             
-            <button id='option1'>Option 1</button>
-            <button id="option2">Option 2</button>
-            <button id="option3">Option 3</button>
-            <button id="option4">Option 4</button>
-            <div id="result">
-            </div>
+            <button className="btn btn-lg btn-dark m-2" onClick={handleNextButtonClick}>Next</button>
+            
+            
+          )}
         </div>
+      )}
     </div>
+  );
+};
 
-    <div id="end" class = 'hide'>
-        <h1>Congrats!</h1>
-        <h2>You have completed the quiz!</h2>
-        <p id="js-score"></p>
-        <label>Enter your initials</label>
-        <input id="js-initials" type="text"></input>
-        
-        <button id="js-submitBtn">Submit</button>
-        <div id="js-highscores"></div>
-    </div>
-</body>
-    )};
 export default Quiz;

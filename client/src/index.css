@@ -423,7 +423,7 @@ button {
 }
 
 a {
-  color: #1b89bc;
+  color: #bc1b59;
   text-decoration: none;
 }
 
@@ -1086,25 +1086,28 @@ a:hover {
 .card {
   border: 1px solid #1a1a1a;
   margin-bottom: 1rem;
+  justify-content: center;
 }
 
 .card .card-header {
-  padding: 0.375rem;
+  padding: 0.475rem;
   background-color: #2d3e50;
   color: #d9e9e8;
 }
 
 .card .card-body {
   padding: 0.375rem;
+  height: 90%;
+  margin-top: 14px;
 }
 
 .card .card-footer {
   border-top: 1px solid #1a1a1a;
-  padding: 0.375rem;
+  padding: .375rem;
 }
 
 .card.card-rounded {
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
 }
 
 .card.card-rounded .card-header {

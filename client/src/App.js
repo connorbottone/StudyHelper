@@ -94,7 +94,7 @@ function App() {
                 element={<Contact />}
               />
               <Route 
-                path="/Quiz"
+                path="/Quiz/:quizId"
                 element={<Quiz />}
               />
             </Routes>
