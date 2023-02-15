@@ -24,17 +24,6 @@ export const ADD_USER = gql`
   }
 `;
 
-export const ADD_QUIZ = gql`
-  mutation addQuiz($quizTitle: String!, $gradeLevel: Int!) {
-    addQuiz(quizTitle: $quizTitle) {
-      _id
-      quizTitle
-      quizAuthor
-      createdAt
-    }
-  }
-`;
-
 export const ADD_QUESTION = gql`
   mutation addQuestion($quizId: ID!, $questionText: String!) {
     addQuestion(quizId: $quizId, question: $question) {
@@ -82,4 +71,20 @@ export const REMOVE_QUIZ = gql`
       createdAt
     }
   }
+`;
+
+export const ADD_QUIZ = gql`
+mutation Mutation($quizTitle: String!, $gradeLevel: Int!, $questions: [QuestionInput]) {
+  addQuiz(quizTitle: $quizTitle, gradeLevel: $gradeLevel, questions: $questions) {
+    quizTitle
+    gradeLevel
+    questions {
+      question
+      answers {
+        answer
+        correct
+      }
+    }
+  }
+}
 `;
