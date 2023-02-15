@@ -14,7 +14,7 @@ const Grade3 = () => {
 
   return (
     <div>
-      <h1>Grade 1</h1>
+      <h1>Grade 3</h1>
       {quizs.map((quiz) => (
         <div key={quiz._id} className="card text-center border border-primary mt-4">
           <div className="card-header">{quiz.quizAuthor}</div>
