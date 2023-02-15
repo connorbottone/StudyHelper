@@ -1,6 +1,7 @@
 import React from 'react';
 import { useQuery } from '@apollo/client';
 import { Link } from 'react-router-dom';
+import test from '../images/test.jpg'
 
 const Home = () => {
   return (
@@ -15,10 +16,12 @@ const Home = () => {
             blah blah blah about us and the quizes
           </p>
           <div className="mt-auto">
-            <Link className="btn btn-lg btn-info m-2" to="/Courses">
+           <img  id="homepageimg1"src={test} alt="Your Image" className="profile-pic" /> 
+           <Link className="btn btn-lg btn-info m-2" to="/Courses">
               Explore content
             </Link>
           </div>
+          
         </div>
         <div className="card-footer text-muted"></div>
       </div>
