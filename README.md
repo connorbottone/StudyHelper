@@ -6,7 +6,7 @@ This application is used to create and take quizzes that are made by users, prim
 
 Our group decided to create this application, as we feel that it is very relevant towards the education space and provides the users with a very personal tool to help different students who have different needs. Also, many of our group members have educators within our family, and feel that our application could potentially be very useful to them in helping their students learn. Our simple webpage functionality allows anyone to create an account on our site and create/take quizzes without a complicated UI. Creating this project allowed our group to practice the different concepts that we have learned in this section, and apply it to a real world application. We were also able to get more experience in collaborating with a team in order to meet our end goal.
 
-Link: ADD DEPLOYED LINK HERE
+[Link: https://safe-ridge-06648.herokuapp.com/](https://safe-ridge-06648.herokuapp.com/ 'An app to create quizzes')
 
 ## Table of Contents
 
