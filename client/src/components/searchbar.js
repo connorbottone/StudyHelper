@@ -17,6 +17,7 @@ function QuizSearch() {
       <form onSubmit={handleSubmit}>
         <label htmlFor="search">Search for a Quiz:</label>
         <input
+        placeholder='Quiz Title'
           type="text"
           id="search"
           value={searchTerm}
@@ -30,7 +31,7 @@ function QuizSearch() {
           <div key={quiz._id}>
             <h2>{quiz.quizTitle}</h2>
             <p>Grade Level: {quiz.gradeLevel}</p>
-            <p>Quiz Author: {quiz.quizAuthor}</p>
+            
             <Link className="btn btn-lg btn-info m-2" to={`/Quiz/${quiz._id}`}>
                 Begin Quiz
               </Link>

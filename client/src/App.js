@@ -22,6 +22,7 @@ import Grade2 from './pages/Grade2';
 import Grade3 from './pages/Grade3';
 import Contact from './pages/Email';
 import Quiz from './pages/Quiz';
+import'./background.css';
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -53,7 +54,10 @@ function App() {
       <Router>
         <div className="flex-column justify-flex-start min-100-vh">
           <Header />
-          <div className="container">
+      
+      
+          <div className="container" >
+          
             <Routes>
               <Route 
                 path="/"

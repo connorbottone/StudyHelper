@@ -20,7 +20,7 @@ const Grade1 = () => {
           <div className="card-header">{quiz.quizAuthor}</div>
           <div className="card-body">
             <h5 className="card-title">{quiz.quizTitle}</h5>
-            <p className="card-text">Blah blah blah about us and the quizes</p>
+            <p className="card-text">Ready to learn?! </p>
             <Link className="btn btn-lg btn-danger m-2" to={`/Quiz/${quiz._id}`}>
                 Begin Quiz
               </Link>
