@@ -19,6 +19,7 @@ html {
  */
 body {
   margin: 0;
+  
 }
 
 /**
@@ -1100,6 +1101,9 @@ a:hover {
  
   
 }
+
+  
+
 .cards{border: 1px solid #1a1a1a;
   margin-bottom: 1rem;
   width: 900px;

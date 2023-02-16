@@ -1,9 +1,12 @@
-
+import Auth from '../utils/auth';
 
 import React, { useState } from "react";
 import { useMutation } from "@apollo/client";
 import { ADD_QUIZ } from '../utils/mutations';
+import'../createquiz.css';
+import { Link } from 'react-router-dom';
 const CreateQuiz = ()=> {
+  
     const [quizTitle, setQuizTitle] = useState("");
     const [gradeLevel, setGradeLevel] = useState(0);
     const [questions, setQuestions] = useState([{ question: "", answers: [{ answer: "", correct: false }] }]);
@@ -51,41 +54,51 @@ const CreateQuiz = ()=> {
   
     if (loading) return <p>Submitting...</p>;
     if (error) return <p>Error  Please try again</p>;
-    if (data) return <p>Quiz created successfully!</p>;
+    if (data) return <p>Quiz created successfully!
+      Search for your Quiz <Link  to="/Courses">
+              Here
+            </Link> by Quiz-Title 
+    </p>;
   
     return (
-       <div> <p> Begin by giving your Quiz a title</p>
+      <div className="sd">
+        {Auth.loggedIn() ? (
+            <>
+      <div id='quizInfo'>
+       <p> Begin by giving your Quiz a title</p>
        <p>Next select your intended grade level</p>
        <p>Now you can Begin adding your Questions</p>
          <p>For each question you can add as many answers as you like by clicking the add answer button</p>
             <p>Be sure to check the box next to the correct answer</p>
             <p> To add a new Questions click the add question button</p>
             <p>When you are finished click the Submit button</p>
-
-      <form onSubmit={handleSubmit}>
-        <label>
-          Quiz Title:
-          <input
+            </div>
+<form onSubmit={handleSubmit}>
+      
+        
+          <input className='input-field'
+          placeholder='Quiz Title'
             type="text"
             value={quizTitle}
             onChange={(event) => setQuizTitle(event.target.value)}
           />
-        </label>
+        
         <br />
-        <label>
-          Grade Level:
-          <input
+        
+          <input className='input-field'
+        
             type="number"
             value={gradeLevel}
             onChange={(event) => setGradeLevel (parseInt(event.target.value))}
           />
-        </label>
+       
         <br />
         {questions.map((question, questionIndex) => (
           <div key={questionIndex}>
             <label>
-              Question {questionIndex + 1}:
-              <input
+              Q {questionIndex + 1}:
+              <input className='input-field'
+              placeholder="Question"
                 type="text"
                 value={question.question}
                 onChange={(event) => handleQuestionChange(event, questionIndex)}
@@ -96,7 +109,8 @@ const CreateQuiz = ()=> {
               <div key={answerIndex}>
                 <label>
                   Answer {answerIndex + 1}:
-                  <input
+                  <input className='input-field'
+                  placeholder="Answer"
                     type="text"
                     value={answer.answer}
                     onChange={(event) => handleAnswerChange(event, questionIndex, answerIndex)}
@@ -104,7 +118,7 @@ const CreateQuiz = ()=> {
                 </label>
                 <label>
                   Correct:
-                  <input
+                  <input className=" m-2"
                     type="checkbox"
                     checked={answer.correct}
                     onChange={(event) => handleCorrectChange(event, questionIndex, answerIndex)}
@@ -113,16 +127,28 @@ const CreateQuiz = ()=> {
                 <br />
               </div>
             ))}
-            <button type="button" onClick={() => addAnswer(questionIndex)}> Add Answer </button>
+            <button id="addAnswer"className="btn btn-lg btn-danger m-2 ml-5" type="button" onClick={() => addAnswer(questionIndex)}> Add Answer </button>
             </div>
         ))}
-        <button type="button" onClick={addQuestion}> Add Question </button>
+        <button className="btn btn-lg btn-info m-2 ml-5" type="button" onClick={addQuestion}> Add Question </button>
 
-      <button type="submit">Create Quiz</button>
-    </form></div>
-  );
+      <button className="btn btn-lg btn-info m-2" type="submit">Create Quiz</button>
+    </form>
+      </>
+      ) : (
+          <div>
+<h1>Sigup/Login to Create and Share your quiz today</h1>
+<div>
+<div class="dot">CREATE</div>
+<div class="dot">SHARE</div>
+<div class="dot">LEARN</div>
+<div class="dot">STUDY</div>
+          </div></div>
+  )
 }
-
+</div>
+    );
+  };
 
 
 export default CreateQuiz;
