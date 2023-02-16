@@ -84,7 +84,7 @@ const CreateQuiz = () => {
 
             <br />
             <label>
-              Grade Level
+              Grade Level:
               <input className='input-field'
 
                 type="number"
