@@ -31,7 +31,7 @@ const Courses = () => {
       </div>
       <div class="card-body">
           <h5 class="card-title">📊Math 🎓English 📜History</h5>
-          <p class="card-text">blah blah blah about us and the quizes</p>
+          <p class="card-text">Get ready to have fun and expand your mind with these engaging quizzes! </p>
           <Link className="btn btn-lg btn-danger m-2" to="/Grade2">
                 Quizes
               </Link>
@@ -44,7 +44,7 @@ const Courses = () => {
       </div>
       <div class="card-body">
           <h5 class="card-title">📊Math 🎓English 📜History</h5>
-          <p class="card-text">blah blah blah about us and the quizes</p>
+          <p class="card-text">Are you ready to put your knowledge to the test?</p>
           <Link className="btn btn-lg btn-danger m-2" to="/Grade3">
                 Quizes
               </Link>
