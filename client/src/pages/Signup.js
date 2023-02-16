@@ -64,7 +64,8 @@ const Signup = () => {
                   id='email'
                   placeholder="Your email"
                   required="required"
-                  type="email"
+                  type="text"
+                  name='email'
                   value={formState.email}
                   onChange={handleChange}
                 />
