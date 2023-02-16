@@ -3,11 +3,13 @@ import { useQuery } from '@apollo/client';
 import { Link } from 'react-router-dom';
 import test from '../images/test.jpg'
 import create from '../images/create.png'
+import "../HomePage.css";
+
 const Home = () => {
   return (
     <div className="homepage" style={{ display: "flex", flexDirection: "row", height: "80vh" }}>
       <div className="card text-center col-sm-6 border border-primary mt-5 ml-5 d-flex flex-column">
-        <div className="card-header">
+        <div className="hcard-header">
           Featured
         </div>
         <div className="card-body flex-grow-1">
@@ -31,7 +33,7 @@ const Home = () => {
       </div>
       <div className="card text-center border border-primary mt-5 ml-5 d-flex flex-column">
       
-        <div className="card-header ">
+        <div className="hcard-header ">
           Featured
         </div> 
         <div className="card-body flex-grow-1">

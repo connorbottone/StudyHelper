@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import "../EmailStyle.css";  
+import "../EmailStyle.css";
 
 const Contact = () => {
   const form = useRef();
@@ -10,12 +10,12 @@ const Contact = () => {
 
     emailjs.sendForm('service_gj5fcam', 'template_jw1jue6', form.current, 'SK6EGaqF0eThnX2Q4')
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
 
-      e.target.reset()
+    e.target.reset()
   };
 
   return (
@@ -23,8 +23,8 @@ const Contact = () => {
       <div className="container">
         <h2 className="--text-center">EMAIL US!</h2>
         <form ref={form} onSubmit={sendEmail}
-         
-        className="--form-control --card
+
+          className="--form-control --card
              --flex-center --dir-column">
           <input
             type="text"
@@ -39,9 +39,9 @@ const Contact = () => {
             placeholder="Quiz title"
             name="user_subject" required />
 
-            <textarea placeholder="Please discribe the Issue:"name="message"
+          <textarea placeholder="Please discribe the Issue:" name="message"
             cols="30" rows="10"></textarea>
-            <button type="submit" className="--btn
+          <button type="submit" className="--btn
               btn-primary">Send</button>
         </form>
       </div>
