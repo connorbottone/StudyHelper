@@ -3,6 +3,7 @@ import Auth from '../utils/auth';
 import React, { useState } from "react";
 import { useMutation } from "@apollo/client";
 import { ADD_QUIZ } from '../utils/mutations';
+import'../createquiz.css';
 const CreateQuiz = ()=> {
   
     const [quizTitle, setQuizTitle] = useState("");
@@ -68,7 +69,7 @@ const CreateQuiz = ()=> {
             <p>When you are finished click the Submit button</p>
 
       <form onSubmit={handleSubmit}>
-        <label>
+        <label >
           Quiz Title:
           <input
             type="text"
@@ -129,7 +130,12 @@ const CreateQuiz = ()=> {
       ) : (
           <div>
 <h1>Sigup/Login to Create and Share your quiz today</h1>
-          </div>
+<div>
+<div class="dot">CREATE</div>
+<div class="dot">SHARE</div>
+<div class="dot">LEARN</div>
+<div class="dot">STUDY</div>
+          </div></div>
   )
 }
 </div>
