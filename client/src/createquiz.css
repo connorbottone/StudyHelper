@@ -12,3 +12,45 @@
     font-style: italic;
     font-weight: bold;
   }
+  .form {
+   
+    display: flex;
+    box-orient: vertical;
+    box-direction: normal;
+    flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #910c0c;
+    border-radius: 25px;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+  }
+  #heading {
+    text-align: center;
+    margin: 2em;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+  }
+  .input-field {
+    background: none;
+    border: solid 3px black;  
+    outline: none;
+    width: 200px;
+    border-radius: 14px;
+    color: #080000;
+    padding: 8px;
+    margin-top: 2px;
+    font-weight: bold;
+    background-color:yellow;
+  }
+  #quizInfo{
+    border-radius: 10px;
+    border: solid 2px black;
+    background-color: #13758d;  
+    box-shadow: #050000 0px 0px 15px 0px;
+    margin-bottom: 25px;
+    font-weight: bold;
+  }
