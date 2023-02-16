@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import "../EmailStyle.css";  
 
 const Contact = () => {
   const form = useRef();
@@ -20,7 +21,7 @@ const Contact = () => {
   return (
     <section>
       <div className="container">
-        <h2 className="--text-center">EMAIL US</h2>
+        <h2 className="--text-center">EMAIL US!</h2>
         <form ref={form} onSubmit={sendEmail}
          
         className="--form-control --card
@@ -35,10 +36,10 @@ const Contact = () => {
             name="user_email" required />
 
           <input type="text"
-            placeholder="subject"
+            placeholder="Quiz title"
             name="user_subject" required />
 
-            <textarea name="message"
+            <textarea placeholder="Please discribe the Issue:"name="message"
             cols="30" rows="10"></textarea>
             <button type="submit" className="--btn
               btn-primary">Send</button>
