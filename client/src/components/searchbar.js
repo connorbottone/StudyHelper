@@ -17,6 +17,7 @@ function QuizSearch() {
       <form onSubmit={handleSubmit}>
         <label htmlFor="search">Search for a Quiz:</label>
         <input
+        placeholder='Quiz Title'
           type="text"
           id="search"
           value={searchTerm}

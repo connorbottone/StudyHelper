@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { useMutation } from "@apollo/client";
 import { ADD_QUIZ } from '../utils/mutations';
 import'../createquiz.css';
+import { Link } from 'react-router-dom';
 const CreateQuiz = ()=> {
   
     const [quizTitle, setQuizTitle] = useState("");
@@ -53,7 +54,11 @@ const CreateQuiz = ()=> {
   
     if (loading) return <p>Submitting...</p>;
     if (error) return <p>Error  Please try again</p>;
-    if (data) return <p>Quiz created successfully!</p>;
+    if (data) return <p>Quiz created successfully!
+      Search for your Quiz <Link  to="/Courses">
+              Here
+            </Link> by Quiz-Title 
+    </p>;
   
     return (
       <div className="sd">
